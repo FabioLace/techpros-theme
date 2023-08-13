@@ -1,0 +1,16 @@
+/*
+Theme Name: techpros
+Theme URI: 
+Author: 
+Author URI: 
+Description: Demo theme
+Requires PHP: 8.1
+Version: 1.0
+*/
+
+/* IMPORTS */
+@import "./assets/css/home.css";
+@import "./assets/css/header.css";
+@import "./assets/css/archive.css";
+@import "./assets/css/single.css";
+@import "./assets/css/footer.css";
