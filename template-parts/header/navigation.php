@@ -1,31 +1,55 @@
-<nav class="d-flex flex-row">
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const navElement = document.getElementById('navbar');
+        const logoElement = document.getElementById('logo');
 
-            const mainLinks = document.querySelectorAll('.nav-link');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.body.clientHeight;
 
-            console.log(mainLinks);
-
-            mainLinks.forEach(link => {
-                link.addEventListener("click", () => {
-                    console.log("CLICK");
-                    mainLinks.forEach(otherLink => {
-                        if (otherLink !== link) {
-                            otherLink.querySelector('#drop-down').style.display = "none";
-                        }
-                    });
-                    const dropDown = link.querySelector('#drop-down');
-                    dropDown.style.display = "block";
-                });
-            });
+            // Calcola la percentuale di scroll
+            const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
+            console.log(scrollPercentage);
+            // Cambia il colore in base alla percentuale di scroll
+            if (scrollPercentage > 1) {
+                navElement.classList.add('nav-scroll');
+                logoElement.src = 'wp-content/themes/techpros/assets/images/logo-transparent.png';
+            } else {
+                navElement.classList.remove('nav-scroll');
+                logoElement.src = 'wp-content/themes/techpros/assets/images/main-logo.png';
+            }
         });
-    </script>
 
-    <img src="wp-content/themes/techpros/assets/images/main-logo.png">
+        /*const mainLinks = document.querySelectorAll('.nav-link');
+
+        console.log(mainLinks);
+
+        mainLinks.forEach(link => {
+            link.addEventListener("mouseover", () => {
+                mainLinks.forEach(otherLink => {
+                    if (otherLink !== link) {
+                        otherLink.querySelector('.drop-down');
+                    }
+                });
+                const dropDown = link.querySelector('.drop-down');
+                dropDown.classList.add('show');
+            });
+
+            link.addEventListener("mouseout", () => {
+                const dropDown = link.querySelector('.drop-down');
+                dropDown.classList.remove('show');
+            });
+        });*/
+    });
+</script>
+
+<nav id="navbar" class="d-flex flex-row">
+    <img id="logo" src="wp-content/themes/techpros/assets/images/main-logo.png">
     <div class="nav-links d-flex flex-row">
         <div class="nav-link">
             <a href="#">Home</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">HOME ONE</a>
                 <a href="#">HOME TWO</a>
                 <a href="#">HOME THREE</a>
@@ -37,18 +61,18 @@
         </div>
         <div class="nav-link">
             <a href="#">Company</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">About Us Two</a>
                 <a href="#">Why Choose Us</a>
                 <a href="#">Team Member</a>
                 <a href="#">Single Team</a>
                 <a href="#">Portfolio</a>
-                    <div id="drop-down sub-menu">
+                    <div class="drop-down sub-menu">
                         <a href="#">Portfolio Two</a>
                         <a href="#">Portfolio Three</a>
                     </div>
                 <a href="#">Our Service</a>
-                    <div id="drop-down sub-menu">
+                    <div class="drop-down sub-menu">
                         <a href="#">Our Service Two</a>
                         <a href="#">Our Service Three</a>
                     </div>
@@ -59,7 +83,7 @@
         </div>
         <div class="nav-link">
             <a href="#">IT Solution</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">IT Services</a>
                 <a href="#">Managed IT Services</a>
                 <a href="#">Industries</a>
@@ -69,7 +93,7 @@
         </div>
         <div class="nav-link">
             <a href="#">Elements</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">Services</a>
                 <a href="#">Info Box</a>
                 <a href="#">Pricing Plan</a>
@@ -80,7 +104,7 @@
         </div>
         <div class="nav-link">
             <a href="#">Blog</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">Blog List</a>
                 <a href="#">Blog Grid</a>
                 <a href="#">Blog 2column</a>
@@ -88,13 +112,13 @@
         </div>
         <div class="nav-link">
             <a href="#">Contact</a>
-            <div id="drop-down">
+            <div class="drop-down">
                 <a href="#">Contact Style One</a>
                 <a href="#">Contact Style Two</a>
                 <a href="#">Contact Style Three</a>
                 <a href="#">Contact Style Four</a>
             </div>
         </div>
-        <button>Get a quote</button>
     </div>
+    <button>Get a quote</button>
 </nav>
