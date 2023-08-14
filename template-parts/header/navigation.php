@@ -8,10 +8,8 @@
             const windowHeight = window.innerHeight;
             const documentHeight = document.body.clientHeight;
 
-            // Calcola la percentuale di scroll
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
-            console.log(scrollPercentage);
-            // Cambia il colore in base alla percentuale di scroll
+
             if (scrollPercentage > 1) {
                 navElement.classList.add('nav-scroll');
                 logoElement.src = 'wp-content/themes/techpros/assets/images/logo-transparent.png';
