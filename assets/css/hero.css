@@ -1,3 +1,22 @@
 .hero{
+    background-image: url('../images/slider1.jpg');
     margin-top: 82px;
+    height: auto;
+    color: white;
+}
+
+.hero-content{
+    padding: 100px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+}
+
+.it-service{
+    background: #7141B1;
+}
+
+.it-service:hover{
+    background: #43BAFF;
 }

@@ -67,7 +67,7 @@ nav img{
     font-size: 13px;
 }
 
-nav button {
+button {
     border: none;
     outline: none;
     padding: 9px 29px;
@@ -78,7 +78,7 @@ nav button {
     transition: 0.5s;
 }
 
-nav button:hover {
+button:hover {
     background: #7141B1;
 }
 
