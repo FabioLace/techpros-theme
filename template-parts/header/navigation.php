@@ -18,36 +18,14 @@
                 logoElement.src = 'wp-content/themes/techpros/assets/images/main-logo.png';
             }
         });
-
-        /*const mainLinks = document.querySelectorAll('.nav-link');
-
-        console.log(mainLinks);
-
-        mainLinks.forEach(link => {
-            link.addEventListener("mouseover", () => {
-                mainLinks.forEach(otherLink => {
-                    if (otherLink !== link) {
-                        otherLink.querySelector('.drop-down');
-                    }
-                });
-                const dropDown = link.querySelector('.drop-down');
-                dropDown.classList.add('show');
-            });
-
-            link.addEventListener("mouseout", () => {
-                const dropDown = link.querySelector('.drop-down');
-                dropDown.classList.remove('show');
-            });
-        });*/
     });
 </script>
-
 <nav id="navbar" class="d-flex flex-row">
     <img id="logo" src="wp-content/themes/techpros/assets/images/main-logo.png">
     <div class="nav-links d-flex flex-row">
         <div class="nav-link">
             <a href="#">Home</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">HOME ONE</a>
                 <a href="#">HOME TWO</a>
                 <a href="#">HOME THREE</a>
@@ -59,18 +37,18 @@
         </div>
         <div class="nav-link">
             <a href="#">Company</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">About Us Two</a>
                 <a href="#">Why Choose Us</a>
                 <a href="#">Team Member</a>
                 <a href="#">Single Team</a>
-                <a href="#">Portfolio</a>
-                    <div class="drop-down sub-menu">
+                <a class="link-with-sub-menu" href="#">Portfolio</a>
+                    <div class="sub-menu">
                         <a href="#">Portfolio Two</a>
                         <a href="#">Portfolio Three</a>
                     </div>
-                <a href="#">Our Service</a>
-                    <div class="drop-down sub-menu">
+                <a class="link-with-sub-menu" href="#">Our Service</a>
+                    <div class="sub-menu">
                         <a href="#">Our Service Two</a>
                         <a href="#">Our Service Three</a>
                     </div>
@@ -81,7 +59,7 @@
         </div>
         <div class="nav-link">
             <a href="#">IT Solution</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">IT Services</a>
                 <a href="#">Managed IT Services</a>
                 <a href="#">Industries</a>
@@ -91,7 +69,7 @@
         </div>
         <div class="nav-link">
             <a href="#">Elements</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">Services</a>
                 <a href="#">Info Box</a>
                 <a href="#">Pricing Plan</a>
@@ -102,7 +80,7 @@
         </div>
         <div class="nav-link">
             <a href="#">Blog</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">Blog List</a>
                 <a href="#">Blog Grid</a>
                 <a href="#">Blog 2column</a>
@@ -110,7 +88,7 @@
         </div>
         <div class="nav-link">
             <a href="#">Contact</a>
-            <div class="drop-down">
+            <div class="dropdown">
                 <a href="#">Contact Style One</a>
                 <a href="#">Contact Style Two</a>
                 <a href="#">Contact Style Three</a>
