@@ -14,3 +14,9 @@ Version: 1.0
 /* @import "./assets/css/archive.css";
 @import "./assets/css/single.css";
 @import "./assets/css/footer.css"; */
+
+:root{
+    --primary-color: #43BAFF;
+    --secondary-color: #7141B1;
+    --gray17-black: #2b2b2b;
+}

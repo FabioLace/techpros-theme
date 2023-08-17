@@ -13,4 +13,39 @@
             <button class="button it-service">It service</button>
         </div>
     </div>
+    <div class="main-services">
+        <div class="service service-1">
+            <div class="service-content">
+                <div class="icon-h2">
+                    <i class="fa-solid fa-wallet"></i>
+                    <h2>IT Consultancy</h2>
+                </div>
+                <div class="service-text">
+                    There are many variations of passages of the Lorem Ipsum available, but this is an majority have suffered.
+                </div>
+            </div>
+        </div>
+        <div class="service service-2">
+            <div class="service-content">
+                <div class="icon-h2">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Cyber Security</h2>
+                </div>
+                <div class="service-text">
+                    There are many variations of passages of the Lorem Ipsum available, but this is an majority have suffered.
+                </div>
+            </div>
+        </div>
+        <div class="service service-1">
+            <div class="service-content">
+                <div class="icon-h2">
+                    <i class="fa-solid fa-"></i>
+                    <h2>24/7 online support</h2>
+                </div>
+                <div class="service-text">
+                    There are many variations of passages of the Lorem Ipsum available, but this is an majority have suffered.
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
