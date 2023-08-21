@@ -1,4 +1,26 @@
 <div class="hero">
+    <script>
+        /* 
+            TO FIX
+            document.addEventListener("DOMContentLoaded", function() {
+            const serviceWhiteElements = document.getElementsByClassName('service-white');
+            const purpleIcons = document.getElementById('purple-icon');
+            
+            for (let i = 0; i < serviceWhiteElements.length; i++) {
+                serviceWhiteElements[i].addEventListener('mouseenter', () => {
+                    console.log("hovered")
+                    purpleIcons.style.color = 'white';
+                });
+
+                serviceWhiteElements[i].addEventListener('mouseleave', () => {
+                    console.log("unhovered")
+                    purpleIcons.style.color = 'var(--secondary-color)';
+                });
+            }
+        }); */
+    </script>
+
+
     <div class="hero-content">
         <div class="text">
             <h4> // Full Cycle IT Solution Services </h4>
@@ -14,10 +36,10 @@
         </div>
     </div>
     <div class="main-services">
-        <div class="service service-1">
+        <div class="service service-1 service-white">
             <div class="service-content">
                 <div class="icon-h2">
-                    <i class="fa-solid fa-wallet"></i>
+                    <i class="fa-solid fa-wallet" id="purple-icon"></i>
                     <h2>IT Consultancy</h2>
                 </div>
                 <div class="service-text">
@@ -25,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="service service-2">
+        <div class="service service-2 service-purple">
             <div class="service-content">
                 <div class="icon-h2">
                     <i class="fa-solid fa-microchip"></i>
@@ -36,10 +58,10 @@
                 </div>
             </div>
         </div>
-        <div class="service service-1">
+        <div class="service service-3 service-white">
             <div class="service-content">
                 <div class="icon-h2">
-                    <i class="fa-solid fa-"></i>
+                    <i class="fa-solid fa-briefcase-clock" id="purple-icon"></i>
                     <h2>24/7 online support</h2>
                 </div>
                 <div class="service-text">
