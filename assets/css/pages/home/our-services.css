@@ -1,0 +1,27 @@
+.our-services{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.services-content{
+    padding: 100px;
+}
+
+.view-services{
+    height: fit-content;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 5px solid transparent;
+    margin-left: auto;
+    padding: 15px 20px;
+}
+
+.view-services:hover{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+/* .card {
+    
+} */

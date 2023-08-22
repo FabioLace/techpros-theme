@@ -4,17 +4,24 @@
  *
  */
 
-get_header(); ?>
+get_header();
 
-<?php get_template_part( 'template-parts/home/hero', 'page' );?>
-<?php get_template_part( 'template-parts/home/about-us', 'page' );?>
-<?php get_template_part( 'template-parts/home/services', 'page' );?>
-<?php /* get_template_part( 'template-parts/home/team', 'page' ); */ ?>
-<?php get_template_part( 'template-parts/home/features-case', 'page' );?>
-<?php get_template_part( 'template-parts/home/process', 'page' );?>
-<?php get_template_part( 'template-parts/home/statistics', 'page' );?>
-<?php get_template_part( 'template-parts/home/benefits-partners', 'page' );?>
-<?php get_template_part( 'template-parts/home/testimonials', 'page' );?>
-<?php get_template_part( 'template-parts/home/last-posts', 'page' );?>
+$sections = array(
+    'hero' => 'hero-page',
+    'about-us' => 'about-us-page',
+    'our-services' => 'our-services-page',
+    //'team' => 'team-page',
+    'features-case' => 'features-case-page',
+    'process' => 'process-page',
+    'statistics' => 'statistics-page',
+    'benefits-partners' => 'benefits-partners-page',
+    'testimonials' => 'testimonials-page',
+    'last-posts' => 'last-posts-page'
+);
 
-<?php get_footer(); ?>
+foreach ($sections as $section => $template_part) {
+    get_template_part('template-parts/home/' . $section, $template_part);
+}
+
+get_footer();
+?>

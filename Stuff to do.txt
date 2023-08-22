@@ -1,5 +1,8 @@
-— Aggiungere font "Montserrat"
-— Fixare colori menù a tendina
+—   Aggiungere font "Montserrat"
+—   Fixare colori menù a tendina
+—   Fixare dissolvenza icone nella hero
+—   Fixare allineamento "Our Vision" in about-us
 
 FORSE:
-— Integrare con ACF
+—   Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
+    the_post() ecc.

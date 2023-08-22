@@ -66,6 +66,12 @@
     background-color: var(--secondary-color);
     color: white;
     border-bottom: 10px solid var(--primary-color);
+    transition: 0.4s;
+}
+
+.service-purple:hover{
+    background-color: var(--primary-color);
+    border-bottom: 10px solid var(--secondary-color);
 }
 
 /* .service-1{
