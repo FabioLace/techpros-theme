@@ -1,5 +1,5 @@
 <div class="about-us">
-    <div class="content d-flex flew-row">
+    <div class="content d-flex flew-row justify-content-center align-items-center">
         <img class="collage" src="wp-content/themes/techpros/assets/images/about1.png">
         <div class="text">
             <div class="h5-line">
@@ -12,11 +12,25 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
             </p>
             <div class="paragraphs">
-                <div class="paragraph-1">
+                <div class="paragraph">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <div class="paragraph-text">
+                        <h2>Our Mission</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                        </p>
+                    </div>
                 </div>
-                <div class="paragraph-2">
-                </div>
-                <div class="paragraph-2">
+                <div class="paragraph">
+                    <i class="fa-regular fa-handshake"></i>
+                    <div class="paragraph-text">
+                        <h2>Our Vision</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
