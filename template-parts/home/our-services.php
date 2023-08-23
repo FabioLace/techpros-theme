@@ -15,20 +15,20 @@
                     const serviceCards = document.getElementsByClassName("card");
                     const circleCards = document.getElementsByClassName("circle");
 
-                    try{
-                        for(let i = 0; i < serviceCards.length; i++) {
-                            serviceCards[i].addEventListener("mousehover", function(){
-                                serviceCards[i].classList.add = "activated";
+                    for (let i = 0; i < serviceCards.length; i++) {
+                        serviceCards[i].addEventListener("mouseover", function() {
+                            if (!serviceCards[i].classList.contains("always-activated")) {
+                                serviceCards[i].classList.add("activated");
                                 circleCards[i].style.display = "block";
-                            });
+                            }
+                        });
 
-                            serviceCards[i].addEventListener("mouseout", function(){
-                                serviceCards[i].classList.remove = "activated";
+                        serviceCards[i].addEventListener("mouseout", function() {
+                            if (!serviceCards[i].classList.contains("always-activated")) {
+                                serviceCards[i].classList.remove("activated");
                                 circleCards[i].style.display = "none";
-                            });
-                        }
-                    } catch(e){
-                        console.log(e);
+                            }
+                        });
                     }
                 });
             </script>
@@ -44,10 +44,11 @@
                 </div>
                 <a>Read more <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="card activated">
+            <div class="card always-activated">
                 <h2>Web Development</h2>
                 <span class="icon-card">
                     <span class="circle"></span>
+                    <i class="fa-solid fa-laptop"></i>
                 </span>
                 <div>
                     Trouble that bound ensue that equaly blame belongs to those through weakness.
@@ -57,17 +58,19 @@
             <div class="card">
                 <h2>Mobile Development</h2>
                 <span class="icon-card">
-                    <i class="fa-solid fa-newtrork-wired"></i>
+                    <span class="circle"></span>
+                    <i class="fa-solid fa-mobile-alt"></i>
                 </span>
                 <div>
                     Trouble that bound ensue that equaly blame belongs to those through weakness.
                 </div>
-                <a>Read more <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="card">
                 <h2>IT Consultancy</h2>
                 <span class="icon-card">
-                    <i class="fa-solid fa-newtrork-wired"></i>
+                    <span class="circle"></span>
+                    <i class="fa-solid fa-briefcase"></i>
                 </span>
                 <div>
                     Trouble that bound ensue that equaly blame belongs to those through weakness.

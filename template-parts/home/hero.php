@@ -1,25 +1,4 @@
 <div class="hero">
-    <script>
-        /* 
-            TO FIX
-            document.addEventListener("DOMContentLoaded", function() {
-            const serviceWhiteElements = document.getElementsByClassName('service-white');
-            const purpleIcons = document.getElementById('purple-icon');
-            
-            for (let i = 0; i < serviceWhiteElements.length; i++) {
-                serviceWhiteElements[i].addEventListener('mouseenter', () => {
-                    console.log("hovered")
-                    purpleIcons.style.color = 'white';
-                });
-
-                serviceWhiteElements[i].addEventListener('mouseleave', () => {
-                    console.log("unhovered")
-                    purpleIcons.style.color = 'var(--secondary-color)';
-                });
-            }
-        }); */
-    </script>
-
     <div class="hero-content">
         <div class="text">
             <h4> // Full Cycle IT Solution Services </h4>
@@ -30,11 +9,35 @@
             </p>
         </div>
         <div class="hero-buttons">
-            <button class="button how-it-works">How it works</button>
-            <button class="button it-service">It service</button>
+            <button class="button how-it-works">
+                How it works <i class="fa-solid fa-angle-right"></i>
+            </button>
+            <button class="button it-service">
+                It service <i class="fa-solid fa-angle-right"></i>
+            </button>
         </div>
     </div>
     <div class="main-services">
+        <script>
+            /* 
+                TO FIX
+                document.addEventListener("DOMContentLoaded", function() {
+                const serviceWhiteElements = document.getElementsByClassName('service-white');
+                const purpleIcons = document.getElementById('purple-icon');
+                
+                for (let i = 0; i < serviceWhiteElements.length; i++) {
+                    serviceWhiteElements[i].addEventListener('mouseenter', () => {
+                        console.log("hovered")
+                        purpleIcons.style.color = 'white';
+                    });
+
+                    serviceWhiteElements[i].addEventListener('mouseleave', () => {
+                        console.log("unhovered")
+                        purpleIcons.style.color = 'var(--secondary-color)';
+                    });
+                }
+            }); */
+        </script>
         <div class="service service-1 service-white">
             <div class="service-content">
                 <div class="icon-h2">
