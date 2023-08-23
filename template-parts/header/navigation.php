@@ -9,7 +9,6 @@
             const documentHeight = document.body.clientHeight;
 
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
-            console.log("scrollPercentage: ", scrollPercentage);
             if (scrollPercentage > 1) {
                 navElement.classList.add('nav-scroll');
                 logoElement.src = 'wp-content/themes/techpros/assets/images/logo-transparent.png';

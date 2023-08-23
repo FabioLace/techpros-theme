@@ -2,6 +2,8 @@
 —   Fixare colori menù a tendina
 —   Fixare dissolvenza icone nella hero
 —   Fixare allineamento "Our Vision" in about-us
+—   Cambiare colori in UX Friendly
+—   Fixare tutti i JS!
 
 FORSE:
 —   Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
