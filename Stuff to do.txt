@@ -4,7 +4,7 @@
 — Fixare allineamento "Our Vision" in about-us
 — Cambiare colori in UX Friendly
 — Fixare tutti i JS!
-— Fixa rotazione nell'our-services
+— Fixa swiper (o trova roba migliore)
 
 FORSE:
 — Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
