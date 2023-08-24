@@ -1,15 +1,15 @@
 <div class="features-case d-flex flex-column align-items-center text-center">
     <div class="text">
-        <div class="title-line">
+        <div class="h5-line features d-flex flex-column align-items-center">
             <h5>Features Case</h5>
-            <hr />
+            <div class="line features-line"></div>
         </div>
         <h2>Our Latest Case Studies</h2>
         <p>
             TechPros partners with businesses across every major industry to make amazing products and connect the dots between people.
         </p>
     </div>
-    <div class="slider">
+    <!-- <div class="slider">
         <div class="case">
             <img src="#" />
             <div class="mini-card">
@@ -64,5 +64,5 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>     -->
 </div>

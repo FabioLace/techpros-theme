@@ -85,7 +85,7 @@ button:hover {
 
 /* SCROLL EFFECT */
 .nav-scroll{
-    background-color: var(--gray17-black);
+    background-color: var(--ux-black);
     color: white;
     top: 0;
 }

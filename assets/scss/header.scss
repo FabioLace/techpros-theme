@@ -1,7 +1,10 @@
+@import "./navbar.scss";
+
 .contacts-social{
-    background-color: #7141B1;
+    background-color: $secondary-color;
     padding: 10px;
-    
+
+
     a,a:hover{
         color: white;
         text-decoration: none;
@@ -16,17 +19,22 @@
     }
 
     .contacts{
-        margin-left: 1em;
-        margin-right: auto;
-
+        margin: {
+            left: 1em;
+            right: auto;
+        }
+        
         div{
-            margin-left: 1em;
-            margin-right: 1em;
+            margin: {
+                left: 1em;
+                right: 1em;
+            }
         }
     }
 
     .social{
         margin-right: 1em;
+    
 
         a{ margin-left: 1em; }
     }

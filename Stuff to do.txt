@@ -1,11 +1,12 @@
-—   Aggiungere font "Montserrat"
-—   Fixare colori menù a tendina
-—   Fixare dissolvenza icone nella hero
-—   Fixare allineamento "Our Vision" in about-us
-—   Cambiare colori in UX Friendly
-—   Fixare tutti i JS!
-—   Fixa rotazione nell'our-services
+— Aggiungere font "Montserrat"
+— Fixare colori menù a tendina
+— Fixare dissolvenza icone nella hero
+— Fixare allineamento "Our Vision" in about-us
+— Cambiare colori in UX Friendly
+— Fixare tutti i JS!
+— Fixa rotazione nell'our-services
 
 FORSE:
-—   Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
-    the_post() ecc.
+— Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
+  the_post() ecc.
+— Usare l'SCSS al posto del CSS classico

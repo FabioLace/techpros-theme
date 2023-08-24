@@ -2,7 +2,7 @@
     <div class="content d-flex flew-row justify-content-center align-items-center">
         <img class="collage" src="wp-content/themes/techpros/assets/images/about1.png">
         <div class="text">
-            <div class="h5-line">
+            <div class="h5-line d-flex flex-row align-items-center">
                 <h5>About Us</h5>
                 <div class="line"></div>
             </div>

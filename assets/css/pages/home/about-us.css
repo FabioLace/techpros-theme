@@ -11,12 +11,6 @@
 
 .text{ width: 40%; }
 
-.h5-line{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .h5-line h5{
     font-weight: 700;
     text-transform: uppercase;

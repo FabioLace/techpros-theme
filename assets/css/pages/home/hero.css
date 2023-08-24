@@ -52,7 +52,7 @@
 
 .service-white{
     background-color: white;
-    color: var(--gray17-black);
+    color: var(--ux-black);
     border-bottom: 10px solid var(--secondary-color);
     transition: 0.4s;
 }
