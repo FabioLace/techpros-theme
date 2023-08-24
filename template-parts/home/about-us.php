@@ -3,7 +3,7 @@
         <img class="collage" src="wp-content/themes/techpros/assets/images/about1.png">
         <div class="text">
             <div class="h5-line">
-                <h5>About Us</h2>
+                <h5>About Us</h5>
                 <div class="line"></div>
             </div>
             <h2>We are Techpros, <br> Established <span style="color: var(--primary-color);">Since 1999</span></h2>
