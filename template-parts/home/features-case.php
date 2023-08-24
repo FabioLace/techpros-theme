@@ -13,7 +13,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="case">
-                    <img src="/wp-content/uploads/2023/08/case5.jpg" /><!-- <img src="/wp-content/themese/techpros/assets/images/case5.jpg" /> -->
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case5.jpg" /><!-- <img src="/wp-content/themese/techpros/assets/images/case5.jpg" /> -->
                     <div class="mini-card">
                         <div class="mini-card-content">
                             <h3>Case Title</h3>
@@ -22,64 +22,61 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-slide">
+                <!-- <div class="case">
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case4.jpg" />
+                    <div class="mini-card">
+                        <div class="mini-card-content">
+                            <h3>Case Title</h3>
+                            <p>Design / Marketing</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
             <div class="swiper-slide">
+                <!-- <div class="case">
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case4.jpg" />
+                    <div class="mini-card">
+                        <div class="mini-card-content">
+                            <h3>Case Title</h3>
+                            <p>Design / Marketing</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
             <div class="swiper-slide">
+                <!-- <div class="case">
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case4.jpg" />
+                    <div class="mini-card">
+                        <div class="mini-card-content">
+                            <h3>Case Title</h3>
+                            <p>Design / Marketing</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
             <div class="swiper-slide">
+                <!-- <div class="case">
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case4.jpg" />
+                    <div class="mini-card">
+                        <div class="mini-card-content">
+                            <h3>Case Title</h3>
+                            <p>Design / Marketing</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
             <div class="swiper-slide">
+                <!-- <div class="case">
+                    <img src="http://localhost/demobonny/wp-content/uploads/2023/08/case4.jpg" />
+                    <div class="mini-card">
+                        <div class="mini-card-content">
+                            <h3>Case Title</h3>
+                            <p>Design / Marketing</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
-            <div class="swiper-slide">
-            </div>
+        </div>
     </div>
-    <!-- <div class="slider">
-        
-        <div class="case">
-            <img src="#" />
-            <div class="mini-card">
-                <div class="mini-card-content">
-                    <h3>Case Title</h3>
-                    <p>Design / Marketing</p>
-                </div>
-            </div>
-        </div>
-        <div class="case">
-            <img src="#" />
-            <div class="mini-card">
-                <div class="mini-card-content">
-                    <h3>Case Title</h3>
-                    <p>Design / Marketing</p>
-                </div>
-            </div>
-        </div>
-        <div class="case">
-            <img src="#" />
-            <div class="mini-card">
-                <div class="mini-card-content">
-                    <h3>Case Title</h3>
-                    <p>Design / Marketing</p>
-                </div>
-            </div>
-        </div>
-        <div class="case">
-            <img src="#" />
-            <div class="mini-card">
-                <div class="mini-card-content">
-                    <h3>Case Title</h3>
-                    <p>Design / Marketing</p>
-                </div>
-            </div>
-        </div>
-        <div class="case">
-            <img src="#" />
-            <div class="mini-card">
-                <div class="mini-card-content">
-                    <h3>Case Title</h3>
-                    <p>Design / Marketing</p>
-                </div>
-            </div>
-        </div>
-    </div>     -->
 </div>

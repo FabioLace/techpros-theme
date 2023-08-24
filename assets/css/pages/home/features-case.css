@@ -1,5 +1,5 @@
 .features-case{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -10,4 +10,36 @@
 
 .features-line{
     margin-left: unset;
+}
+
+.case {
+    position: relative;
+    height: fit-content;
+    height: 320px;
+}
+
+.case > img{
+    width: 450px; /* MAX: 1000 */
+    height: 250px; /* MAX: 600 */
+    border-radius: 5px;
+}
+
+.mini-card{
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    background-color: white;
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    width: 86%;
+    margin-top: -40px;
+}
+
+.mini-card-content{
+    padding: 10px;
+}
+
+.mini-card-content p{
+    text-transform: uppercase;
+    color: var(--primary-color);
 }
