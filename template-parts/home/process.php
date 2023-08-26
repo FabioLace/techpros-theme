@@ -6,7 +6,7 @@
         </div>
         <h2>Our Working Process</h2>
     </div>
-    <div class="step-grid mx-auto">
+    <div class="step-grid">
         <div class="step">
             <span class="icon-counter">
                 <i class="fa-solid fa-computer"></i>

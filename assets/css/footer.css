@@ -1,0 +1,52 @@
+footer{
+    background-color: #211E3B;
+    color: white;
+    padding: 50px;
+}
+
+.contacts-template{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+footer hr{
+    border-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.brand-identity{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.brand-identity img{
+    margin-bottom: 10px;
+}
+
+.brand-identity .social{
+    margin-top: 10px;
+}
+
+.brand-identity .social a{
+    color: white;
+    font-size: large;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+footer .links{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+footer .links a{
+    color: white;
+    transition: 0.3s;
+}
+
+footer .links a:hover{
+    color: var(--primary-color);
+}

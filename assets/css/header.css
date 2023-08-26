@@ -1,7 +1,7 @@
 @import "./navbar.css";
 
 .contacts-social{
-    background-color: #7141B1;
+    background-color: var(--secondary-color);
     padding: 10px;
 }
 

@@ -10,10 +10,10 @@ Version: 1.0
 
 /* IMPORTS */
 @import "./assets/css/header.css";
+@import "./assets/css/footer.css";
 @import "./assets/css/pages/home.css";
 /* @import "./assets/css/archive.css";
-@import "./assets/css/single.css";
-@import "./assets/css/footer.css"; */
+@import "./assets/css/single.css"; */
 
 :root{
     --primary-color: #43BAFF;
