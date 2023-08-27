@@ -6,7 +6,7 @@
 
 get_header();
 
-$sections = array(
+/* $sections = array(
     'hero' => 'hero-page',
     'about-us' => 'about-us-page',
     'our-services' => 'our-services-page',
@@ -21,7 +21,7 @@ $sections = array(
 
 foreach ($sections as $section => $template_part) {
     get_template_part('template-parts/home/' . $section, $template_part);
-}
+} */
 
 get_footer();
 ?>

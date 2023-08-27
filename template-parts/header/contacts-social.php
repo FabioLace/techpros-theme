@@ -1,4 +1,4 @@
-<div class="contacts-social d-flex text-white">
+<div class="contacts-social">
     <div class="contacts">
         <a href="mailto:example@example.com">
             <i class="fa-regular fa-envelope"></i>
