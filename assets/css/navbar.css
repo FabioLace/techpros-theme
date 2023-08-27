@@ -4,7 +4,6 @@
         flex-direction: column;
         background-color: white;
         width: 100%;
-        padding: 1em;
         color: black;
         text-transform: uppercase;
         align-items: center;
@@ -16,6 +15,7 @@
         width: 500px;
         height: auto;
         margin-left: auto;
+        margin-right: auto;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -25,18 +25,26 @@
     }
 
     .mobile-menu{
-        display: block;
-        background-color: var(--secondary-color);
-    }
-
-    .hamburger{
         display: flex;
         flex-direction: column;
-        margin: auto;
+        align-items: center;
+        padding: 1em;
+        color: white;
+        background-color: var(--secondary-color);
+        width: 100%;
+    }
+
+    .techpros-hamburger>h5{
+        margin-right: auto;
+    }
+
+    #hamburger{
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
-    .hamburger .line{
+    #hamburger .line{
         display: block;
         margin: 4px;
         height: 4px;
@@ -50,15 +58,27 @@
     .hamburger-is-open .line-2{ opacity: 0; }
     .hamburger-is-open .line-3{ transform: translate(0, -12px) rotate(-45deg); }
 
+    #mobile-nav-links {
+        display: none;
+        flex-direction: row;
+    }
+
+    .nav-links, .nav-link{
+        display: none;
+    }
+
+    nav>button{
+        display: none;
+    }
+
 }
 
-@media screen and (min-width: 767px){
+/* @media screen and (min-width: 767px){
     nav{
         background-color: white;
         position: fixed;
         z-index: 9999;
         width: 100%;
-        padding: 1em;
         color: black;
         text-transform: uppercase;
         align-items: center;
@@ -138,7 +158,6 @@
         background: var(--secondary-color);
     }
 
-    /* SCROLL EFFECT */
     .nav-scroll{
         background-color: black;
         color: white;
@@ -261,7 +280,6 @@
         background: var(--secondary-color);
     }
 
-    /* SCROLL EFFECT */
     .nav-scroll{
         background-color: black;
         color: white;
@@ -285,4 +303,4 @@
         opacity: 1;
         font-size: 13px;
     }
-}
+}*/

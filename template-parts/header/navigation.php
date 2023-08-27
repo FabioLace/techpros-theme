@@ -19,11 +19,14 @@
     }
 
     function openHamburgerMenu() {
-        const hamburger = document.getElementsByClassName('hamburger');
+        const hamburger = document.getElementById('hamburger');
+        const mobileNavLinks = document.getElementById('mobile-nav-links');
         if(!hamburger.classList.contains('hamburger-is-open')){
             hamburger.classList.add('hamburger-is-open');
+            mobileNavLinks.style.display = 'flex';
         } else {
             hamburger.classList.remove('hamburger-is-open');
+            mobileNavLinks.style.display = 'none';
         }
     }
 
@@ -38,16 +41,18 @@
     <img id="logo" src="wp-content/themes/techpros/assets/images/main-logo.png">
     <!-- START OF MOBILE -->
     <div class="mobile-menu">
-        <h5>TechPros</h5>
-        <div onclick="openHamburgerMenu()" class="hamburger">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
+        <div class="techpros-hamburger d-flex">
+            <h5>TechPros</h5>
+            <div onclick="openHamburgerMenu()" id="hamburger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
         </div>
-        <div class="mobile-nav-links">
-            <div class="nav-link">
+        <div id="mobile-nav-links">
+            <div class="mobile-nav-link">
                 <a href="#">Home</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">HOME ONE</a>
                     <a href="#">HOME TWO</a>
                     <a href="#">HOME THREE</a>
@@ -57,20 +62,20 @@
                     <a href="#">FAQ</a>
                 </div>
             </div>
-            <div class="nav-link">
+            <div class="mobile-nav-link">
                 <a href="#">Company</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">About Us Two</a>
                     <a href="#">Why Choose Us</a>
                     <a href="#">Team Member</a>
                     <a href="#">Single Team</a>
-                    <a class="link-with-sub-menu" href="#">Portfolio</a>
-                        <div class="sub-menu">
+                    <a class="mobile-link-with-sub-menu" href="#">Portfolio</a>
+                        <div class="mobile-sub-menu">
                             <a href="#">Portfolio Two</a>
                             <a href="#">Portfolio Three</a>
                         </div>
-                    <a class="link-with-sub-menu" href="#">Our Service</a>
-                        <div class="sub-menu">
+                    <a class="mobile-link-with-sub-menu" href="#">Our Service</a>
+                        <div class="mobile-sub-menu">
                             <a href="#">Our Service Two</a>
                             <a href="#">Our Service Three</a>
                         </div>
@@ -79,9 +84,9 @@
                     <a href="#">Faq</a>
                 </div>
             </div>
-            <div class="nav-link">
+            <div class="mobile-nav-link">
                 <a href="#">IT Solution</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">IT Services</a>
                     <a href="#">Managed IT Services</a>
                     <a href="#">Industries</a>
@@ -89,9 +94,9 @@
                     <a href="#">IT Services Details</a>
                 </div>
             </div>
-            <div class="nav-link">
+            <div class="mobile-nav-link">
                 <a href="#">Elements</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">Services</a>
                     <a href="#">Info Box</a>
                     <a href="#">Pricing Plan</a>
@@ -100,17 +105,17 @@
                     <a href="#">Accordion</a>
                 </div>
             </div>
-            <div class="nav-link">
+            <div class="mobile-nav-link">
                 <a href="#">Blog</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">Blog List</a>
                     <a href="#">Blog Grid</a>
                     <a href="#">Blog 2column</a>
                 </div>
             </div>
-            <div class="nav-link">
+            <div class="mobile-nav-link">
                 <a href="#">Contact</a>
-                <div class="dropdown">
+                <div class="mobile-dropdown">
                     <a href="#">Contact Style One</a>
                     <a href="#">Contact Style Two</a>
                     <a href="#">Contact Style Three</a>
