@@ -1,8 +1,11 @@
+.process{
+    margin-bottom: 50px;
+}
+
 .step-grid{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     margin-top: 50px;
-    width: 55%;
 }
 
 
