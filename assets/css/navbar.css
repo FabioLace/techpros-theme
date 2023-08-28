@@ -3,7 +3,7 @@ nav{
     position: fixed;
     z-index: 9999;
     width: 100%;
-    padding: 1em;
+    padding: 1em 15em 1em 15em;
     color: black;
     text-transform: uppercase;
     align-items: center;
@@ -12,6 +12,26 @@ nav{
 
 nav img{
     margin-right: auto;
+}
+
+.nav-link>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    padding: 1em 1em 1em 0em;
+}
+
+.nav-link>a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link>a::after{
+    margin-left: 5px;
+    content: "\f107";
+    font-family: FontAwesome;
+    opacity: 1;
+    font-size: 13px;
 }
 
 .nav-link:hover .dropdown {display: flex;}
@@ -40,8 +60,7 @@ nav img{
 
 .dropdown>a{
     color: black;
-    padding: 5px;
-    padding-right: 50px;
+    padding: 5px 50px 5px 5px;
     transition: 0.3s;
     border-top: 1px solid #eeeeee;
 }
@@ -59,25 +78,6 @@ nav img{
     position: relative;
     z-index: 999;
     margin-left: 10px;
-}
-
-.nav-link>a{
-    text-decoration: none;
-    color: black;
-    padding-bottom: 29px;
-}
-
-.nav-link>a:hover{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-link>a::after{
-    margin-left: 5px;
-    content: "\f107";
-    font-family: FontAwesome;
-    opacity: 1;
-    font-size: 13px;
 }
 
 button {

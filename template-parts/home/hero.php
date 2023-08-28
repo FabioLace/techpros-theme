@@ -1,36 +1,14 @@
-<script>
-
-
-    document.addEventListener("DOMContentLoaded", function() {
-
-        const serviceWhiteElements = document.getElementsByClassName('service-white');
-        const purpleIcons = document.getElementById('purple-icon');
-        
-        for (let i = 0; i < serviceWhiteElements.length; i++) {
-            serviceWhiteElements[i].addEventListener('mouseenter', () => {
-                console.log("hovered")
-                purpleIcons.style.color = 'white';
-            });
-
-            serviceWhiteElements[i].addEventListener('mouseleave', () => {
-                console.log("unhovered")
-                purpleIcons.style.color = 'var(--secondary-color)';
-            });
-        }
-    }); */
-</script>
-
 <div class="hero">
     <div class="hero-content">
         <div class="text">
             <h4 class="animate__animated animate__fadeInUp"> // Full Cycle IT Solution Services </h4>
-            <h1 class="font-600 animate__animated animate__fadeInUp">End-To-End<br>Secure IT Service </h1>
-            <p class="animate__animated animate__fadeInUp">
+            <h1 class="fw-bolder animate__animated animate__fadeInUp animate__delay-1s">End-To-End<br>Secure IT Service </h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">
                 Over the years, a wide range of developments and innovations in the
                 global IT arena have led to many new IT-enabled
             </p>
         </div>
-        <div class="hero-buttons animate__animated animate__fadeInUp">
+        <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-1s">
             <button class="button how-it-works">
                 How it works <i class="fa-solid fa-angle-right"></i>
             </button>
