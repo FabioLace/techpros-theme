@@ -9,7 +9,7 @@
             TechPros partners with businesses across every major industry to make amazing products and connect the dots between people.
         </p>
     </div>
-    <h1 class="text-danger">QUI SI DOVREBBERO GENERARE POST E RECUPERARE GLI ULTIMI CON WP_QUERY(), SE SERVE DIMMELO</h1>
+    <h2 class="text-danger">???</h1>
     <script>
         /* document.addEventListener('DOMContentLoaded', function () {
             var swiper = new Swiper('.swiper', {
