@@ -8,6 +8,7 @@
             const windowHeight = window.innerHeight;
             const documentHeight = document.body.clientHeight;
 
+
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
             if (scrollPercentage > 1) {
                 navElement.classList.add('nav-scroll');

@@ -24,6 +24,18 @@ nav img{
     z-index: 999;
     background-color: white;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    animation: fadeInUpDrop 0.3s ease-in-out;
+}
+
+@keyframes fadeInUpDrop {
+    from{
+        margin-top: 60px;
+        opacity: 0%;
+    }
+    to{
+        margin-top: 29px;
+        opacity: 100%;
+    }
 }
 
 .dropdown>a{
@@ -106,5 +118,9 @@ button:hover {
     font-family: FontAwesome;
     opacity: 1;
     font-size: 13px;
+}
+
+.nav-scroll .dropdown>a{
+    color: black;
 }
 
