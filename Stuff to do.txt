@@ -1,11 +1,7 @@
-— Aggiungere font "Montserrat"
 — Fixare colori menù a tendina
 — Fixare dissolvenza icone nella hero
-— Fixare allineamento "Our Vision" in about-us
-— Cambiare colori in UX Friendly
 — Fixare tutti i JS!
 — Fixa swiper (o trova roba migliore)
-— Fixa css nella sezione process
 
 FORSE:
 — Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
