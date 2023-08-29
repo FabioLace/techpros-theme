@@ -1,6 +1,5 @@
 .hero{
-    background-image: url('../../../images/slider1.jpg');
-    background-repeat: no-repeat;
+    background: url('../../../images/slider1.jpg') center center / cover scroll no-repeat;
     margin-top: 82px;
     height: auto;
     color: white;

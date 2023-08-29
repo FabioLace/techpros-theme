@@ -1,0 +1,27 @@
+.action-statistics{
+    /* background: url("../../../images/call-bg.jpg") center center / cover scroll no-repeat; */
+    background-color: var(--secondary-color);
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.call-to-action h2{
+    font-weight: bolder;
+}
+
+.call-to-action button{
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.call-to-action button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
