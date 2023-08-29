@@ -9,26 +9,42 @@
         </p>
         <button>See Our Service</button>
     </div>
-    <div class="the-statistics">
-        <div class="single-stastics stat-blue">
-            <i></i>
-            <h2>147 + </h2>
-            <div>Happy Customers</div>
+    <div class="statistics">
+        <div class="stat-blue">
+            <span class="icon">
+                <i class="fa-solid fa-layer-group"></i>
+            </span>
+            <div class="stat-data">
+                <h2>147 + </h2>
+                <div>Happy Customers</div>
+            </div>
         </div>
-        <div class="single-stastics">
-            <i></i>
-            <h2>1280 + </h2>
-            <div>Account number</div>
+        <div class="stat-white">
+            <span class="icon">
+                <i class="fa-solid fa-layer-group"></i>
+            </span>
+            <div class="stat-data">
+                <h2>1280 + </h2>
+                <div>Account number</div>
+            </div>
         </div>
-        <div class="single-stastics stat-purple">
-            <i></i>
-            <h2>10K</h2>
-            <div>Finished Projects</div>
+        <div class="stat-purple">
+            <span class="icon">
+                <i class="fa-solid fa-layer-group"></i>
+            </span>
+            <div class="stat-data">
+                <h2>10K</h2>
+                <div>Finished Projects</div>
+            </div>
         </div>
-        <div class="single-stastics">
-            <i></i>
-            <h2>992 + </h2>
-            <div>Win Awards</div>
+        <div class="stat-white">
+            <span class="icon">
+                <i class="fa-solid fa-layer-group"></i>
+            </span>
+            <div class="stat-data">
+                <h2>992 + </h2>
+                <div>Win Awards</div>
+            </div>
         </div>
     </div>
 </div>
