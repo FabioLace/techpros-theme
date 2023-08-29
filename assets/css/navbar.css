@@ -3,7 +3,7 @@ nav{
     position: fixed;
     z-index: 9999;
     width: 100%;
-    padding: 1em 15em 1em 15em;
+    padding: 1em 15em 1em 15em; /* SI SMINCIHA TRA 768px E 1024px */
     color: black;
     text-transform: uppercase;
     align-items: center;

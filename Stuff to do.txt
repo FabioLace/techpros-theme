@@ -1,7 +1,6 @@
-— Fixare colori menù a tendina
-— Fixare dissolvenza icone nella hero
 — Fixare tutti i JS!
 — Fixa swiper (o trova roba migliore)
+— Fixa CSS navbar (si sminchia se 768px < X < 1440px)
 
 FORSE:
 — Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),
