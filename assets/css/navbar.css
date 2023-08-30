@@ -3,7 +3,7 @@ nav{
     position: fixed;
     z-index: 9999;
     width: 100%;
-    padding: 1em 15em 1em 15em; /* SI SMINCIHA TRA 768px E 1024px */
+    padding: 1em 5em 1em 5em; /* SI SMINCIHA TRA 768px E 1024px */
     color: black;
     text-transform: uppercase;
     align-items: center;
@@ -18,7 +18,7 @@ nav img{
     text-decoration: none;
     font-weight: bolder;
     color: black;
-    padding: 1em 1em 1em 0em;
+    padding: 1em 0em 0em 0em;
 }
 
 .nav-link>a:hover{
