@@ -1,12 +1,12 @@
 <div class="benefits-partners">
     <div class="benefits d-flex flew-row justify-content-center align-items-center">
-        <img class="collage" src="wp-content/themes/techpros/assets/images/why-choose.png">
+        <img src="wp-content/themes/techpros/assets/images/why-choose.png">
         <div class="text">
             <div class="h5-line d-flex flex-row align-items-center">
                 <h5>Our benefits</h5>
                 <div class="line"></div>
             </div>
-            <h2>Few Reasons Why You<br> Should Choose Us</h2>
+            <h2>Few Reasons Why You<br>Should Choose Us</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.

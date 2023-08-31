@@ -1,8 +1,47 @@
 <div class="action-statistics">
+    <script>
+        function animateCount(element, target, duration) {
+            const start = 0;
+            const increment = target / (duration / 16); // 16ms è il tempo approssimativo di un frame
+
+            let current = start;
+            const interval = setInterval(() => {
+                current += increment;
+                element.textContent = Math.floor(current);
+
+                if (current >= target) {
+                    clearInterval(interval);
+                    element.textContent = target;
+                }
+            }, 16);
+        }
+
+        document.addEventListener("DOMContentLoaded", function(){
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting){
+                        console.log("intersection!");
+                        const happyCustomersElement = document.querySelector('#happy-customers h1');
+                        animateCount(happyCustomersElement, 147, 1000);
+
+                        const accountNumber = document.querySelector('#account-number h1');
+                        animateCount(accountNumber, 1280, 1000);
+
+                        const finishedProjects = document.querySelector('#finished-projects h1');
+                        animateCount(finishedProjects,10, 1000);
+
+                        const winAwards = document.querySelector('#win-awards h1');
+                        animateCount(winAwards,992,1000);
+                    }
+                })
+            });
+            observer.observe(document.querySelector('.statistics'));
+        })
+    </script>
     <div class="call-to-action">
-        <h2>
+        <h1 class="mr-1">
             We Provide Worldwide IT Service For </br> Small & Mid-Sized Business
-        </h2>
+        </h1>
         <p>
             Nectar accumsan id nisi in ullamcorper. Nullam leo maximus vitae interdum non,
             sit amet est. Aenean sagittis tellus eu nicce esedatu occeanas del ano.
@@ -10,39 +49,48 @@
         <button>See Our Service</button>
     </div>
     <div class="statistics">
-        <div class="stat-blue">
+        <div id="happy-customers" class="stat-blue">
             <span class="icon">
                 <i class="fa-solid fa-layer-group"></i>
             </span>
             <div class="stat-data">
-                <h2>147 + </h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h1 class="mr-1">0</h1>
+                    <h3>+</h3>
+                </div>
                 <div>Happy Customers</div>
             </div>
         </div>
-        <div class="stat-white">
+        <div id="account-number" class="stat-white">
             <span class="icon">
                 <i class="fa-solid fa-layer-group"></i>
             </span>
             <div class="stat-data">
-                <h2>1280 + </h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h1 class="mr-1">0</h1>
+                    <h3>+</h3>
+                </div>
                 <div>Account number</div>
             </div>
         </div>
-        <div class="stat-purple">
+        <div id="finished-projects" class="stat-purple">
             <span class="icon">
                 <i class="fa-solid fa-layer-group"></i>
             </span>
             <div class="stat-data">
-                <h2>10K</h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h1 class="mr-1">0</h1>
+                    <h3>K</h3>
+                </div>
                 <div>Finished Projects</div>
             </div>
         </div>
-        <div class="stat-white">
+        <div id="win-awards" class="stat-white">
             <span class="icon">
                 <i class="fa-solid fa-layer-group"></i>
             </span>
             <div class="stat-data">
-                <h2>992 + </h2>
+                <h1 class="mr-1">0</h1>
                 <div>Win Awards</div>
             </div>
         </div>
