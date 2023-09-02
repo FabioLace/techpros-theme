@@ -1,6 +1,6 @@
 <div class="benefits-partners">
     <div class="benefits d-flex flew-row justify-content-center align-items-center">
-        <img src="wp-content/themes/techpros/assets/images/why-choose.png">
+        <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/why-choose.png' ); ?>">
         <div class="text">
             <div class="h5-line d-flex flex-row align-items-center">
                 <h5>Our benefits</h5>
@@ -48,7 +48,14 @@
             </div>
         </div>
     </div>
-    <div class="partners">
-        <h1 class="text-danger">SLIDER PARTNERS</h1>
+    <div class="partners mt-5">
+        <div class="container d-flex flex-row">
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" alt="" >
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" alt="">
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" alt="">
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" alt="">
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" alt="">
+            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" alt="">
+        </div>            
     </div>
 </div>

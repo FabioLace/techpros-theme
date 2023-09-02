@@ -23,7 +23,7 @@
                 </p>
             </div>
         </div>
-        <img class="direction-sign" src="wp-content/themes/techpros/assets/images/direction-sign.png" />
+        <img class="direction-sign" src="<?= esc_url( get_template_directory_uri() . '/assets/images/direction-sign.png' ); ?>" />
         <div class="step">
             <span class="icon-counter">
                 <i class="fa-solid fa-network-wired"></i>
@@ -40,7 +40,7 @@
                 </p>
             </div>
         </div>
-        <img class="direction-sign" src="wp-content/themes/techpros/assets/images/direction-sign.png" />
+        <img class="direction-sign" src="<?= esc_url( get_template_directory_uri() . '/assets/images/direction-sign.png' ); ?>" />
         <div class="step">
             <span class="icon-counter">
                 <i class="fa-solid fa-network-wired"></i>

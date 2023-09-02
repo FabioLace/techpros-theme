@@ -24,7 +24,7 @@
                 <hr />
                 <div class="real-footer d-flex flex-row">
                     <div class="brand-identity">
-                        <img src="wp-content/themes/techpros/assets/images/logo-transparent.png">
+                        <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/logo-transparent.png' ); ?>">
                         <div>
                             We are experienced professionals who understand that It services is
                             changing, and are true partners who care about your future business success.
@@ -54,9 +54,6 @@
                         <a href="#">Our Team</a>
                         <a href="#">Latest Blog</a>
                     </div>
-<!--                 <div class="recent-posts">
-                        <h5>Recent posts</h5>
-                    </div> -->
                 </div>
             </footer>
         </div>

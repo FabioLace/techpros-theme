@@ -21,7 +21,7 @@
     });
 </script>
 <nav id="navbar" class="d-flex flex-row">
-    <img id="logo" src="wp-content/themes/techpros/assets/images/main-logo.png">
+    <img id="logo" src="<?= esc_url( get_template_directory_uri() . '/assets/images/main-logo.png' ); ?>">
     <div class="nav-links d-flex flex-row">
         <div class="nav-link">
             <a href="#">Home</a>
