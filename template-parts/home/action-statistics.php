@@ -17,10 +17,11 @@
         }
 
         document.addEventListener("DOMContentLoaded", function(){
+            const statisticsElement = document.querySelector('.statistics');
+
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if(entry.isIntersecting){
-                        console.log("intersection!");
                         const happyCustomersElement = document.querySelector('#happy-customers h1');
                         animateCount(happyCustomersElement, 147, 1000);
 
@@ -32,11 +33,13 @@
 
                         const winAwards = document.querySelector('#win-awards h1');
                         animateCount(winAwards,992,1000);
+
+                        observer.unobserve(statisticsElement);
                     }
-                })
+                });
             });
-            observer.observe(document.querySelector('.statistics'));
-        })
+            observer.observe(statisticsElement);
+        });
     </script>
     <div class="call-to-action">
         <h1 class="mr-1">

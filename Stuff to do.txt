@@ -1,6 +1,5 @@
-— Fixare tutti i JS!
-— Fixa swiper (o trova roba migliore)
-— Fixa CSS navbar (si sminchia se 768px < X < 1440px)
+— Fixa CSS nella sezione partners
+— Integra Owl nelle sezioni dove serve
 
 FORSE:
 — Integrare con ACF e CRM di Wordpress, quindi predisporre tutti i get_field(),

@@ -31,3 +31,29 @@
 .benefits .icon:hover{ background-color: var(--secondary-color); }
 
 .benefits .icon:hover i{ color: white; }
+
+.benefits-partners .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-partners .container .owl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    transition: 0.3s;
+    filter: contrast(0);
+    opacity: 0.5;
+    transition: 0.3s;
+    flex: 1;
+}
+
+.benefits-partners .container .owl:hover {
+    /* box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75); */
+    filter: contrast(1);
+    opacity: 1;
+    cursor: pointer;
+}

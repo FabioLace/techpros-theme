@@ -49,13 +49,25 @@
         </div>
     </div>
     <div class="partners mt-5">
-        <div class="container d-flex flex-row">
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" alt="" >
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" alt="">
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" alt="">
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" alt="">
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" alt="">
-            <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" alt="">
+        <div class="container">
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" alt="">
+            </div>
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" alt="">
+            </div>
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" alt="">
+            </div>
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" alt="">
+            </div>
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" alt="">
+            </div>
+            <div class="owl">
+                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" alt="">
+            </div>
         </div>            
     </div>
 </div>
