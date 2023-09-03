@@ -1,7 +1,21 @@
 footer{
     background-color: #211E3B;
     color: white;
-    padding: 50px;
+}
+
+.contacts-container, .real-footer-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+/**
+*
+* CONTACTS
+*
+*/
+.contacts-address-time{
+    border-bottom: 1px solid #FFFF;
+    padding: 40px 0px 40px 0px;
 }
 
 .contacts-template{
@@ -10,10 +24,15 @@ footer{
     margin-right: 50px;
 }
 
-footer hr{
-    border-color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+/**
+*
+*   REAL FOOTER
+*
+*/
+
+.real-footer{
+    background-image: url("../images/footer-bg.png");
+    padding: 40px 0px 40px 0px;
 }
 
 .brand-identity{
@@ -36,17 +55,17 @@ footer hr{
     margin-right: 10px;
 }
 
-footer .links{
+.real-footer .links{
     display: flex;
     flex-direction: column;
     margin-right: 50px;
 }
 
-footer .links a{
+.real-footer .links a{
     color: white;
     transition: 0.3s;
 }
 
-footer .links a:hover{
+.real-footer .links a:hover{
     color: var(--primary-color);
 }

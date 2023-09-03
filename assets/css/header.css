@@ -6,42 +6,40 @@
 
 @media screen and (min-width: 1023px){
     .contacts-social{
-        display: flex;
-        color: white;
-        background-color: var(--secondary-color);
-        padding: 20px;
-    }
+	    background-color: var(--secondary-color);
+	    padding: 10px 5em 10px 5em
+	}
 
-    .contacts-social a,a:hover{
-        color: white;
-        text-decoration: none;
-    }
+	.contacts-social a,a:hover{
+	    color: white;
+	    text-decoration: none;
+	}
 
-    .contacts-social i{
-        margin-right: 1px;
-    }
+	.contacts-social i{
+	    margin-right: 1px;
+	}
 
-    .contacts, .social{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+	.contacts, .social{
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	}
 
-    .contacts{
-        margin-left: 1em;
-        margin-right: auto;
-    }
+	.contacts{
+	    margin-left: 1em;
+	    margin-right: auto;
+	}
 
-    .contacts div{
-        margin-left: 1em;
-        margin-right: 1em;
-    }
+	.contacts div{
+	    margin-left: 1em;
+	    margin-right: 1em;
+	}
 
-    .social{
-        margin-right: 1em;
-    }
+	.social{
+	    margin-right: 1em;
+	}
 
-    .social a{
-        margin-left: 1em;
-    }
+	.social a{
+	    margin-left: 1em;
+	}
 }

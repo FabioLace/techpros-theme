@@ -1,5 +1,8 @@
-@import "../pages/home/hero.css";
-@import "../pages/home/about-us.css";
-@import "../pages/home/our-services.css";
-@import "../pages/home/features-case.css";
-@import "../pages/home/process.css";
+@import "../pages/home-components/hero.css";
+@import "../pages/home-components/about-us.css";
+@import "../pages/home-components/our-services.css";
+@import "../pages/home-components/features-case.css";
+@import "../pages/home-components/process.css";
+@import "../pages/home-components/action-statistics.css";
+@import "../pages/home-components/benefits-partners.css";
+@import "../pages/home-components/testimonials.css";

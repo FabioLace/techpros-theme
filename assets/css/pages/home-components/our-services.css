@@ -4,8 +4,11 @@
 }
 
 .services-content{
-    padding: 100px;
+    padding: 100px 242px 100px 242px;
 }
+
+.text { font-weight: bolder }
+.text h4{ text-transform: uppercase; }
 
 .view-services{
     height: fit-content;

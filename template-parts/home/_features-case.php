@@ -9,6 +9,7 @@
             TechPros partners with businesses across every major industry to make amazing products and connect the dots between people.
         </p>
     </div>
+    <h2 class="text-danger">???</h1>
     <script>
         /* document.addEventListener('DOMContentLoaded', function () {
             var swiper = new Swiper('.swiper', {
