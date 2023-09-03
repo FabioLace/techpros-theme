@@ -60,13 +60,26 @@
     flex: 1;
 }
 
-.owl-carousel .owl-item img{
-    width: unset;
-}
-
 .partners-container .item:hover {
     /* box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75); */
     filter: contrast(1);
     opacity: 1;
     cursor: pointer;
+}
+
+.owl-carousel .owl-item img{
+    width: unset;
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
 }
