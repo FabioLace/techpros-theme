@@ -20,7 +20,7 @@
         margin-bottom: 40px;
     }
 
-    .nav-links{
+    .nav-links, .nav-link{
         display: none;
     }
 
@@ -28,20 +28,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1em;
         color: white;
         background-color: var(--secondary-color);
         width: 100%;
+        padding: 25px;
     }
 
-    .techpros-hamburger>h5{
-        margin-right: auto;
-    }
+    .techpros-hamburger{ width: 100%; }
+
+    .techpros-hamburger h2{ margin: 0; }
 
     #hamburger{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 
     #hamburger .line{
@@ -58,22 +59,35 @@
     .hamburger-is-open .line-2{ opacity: 0; }
     .hamburger-is-open .line-3{ transform: translate(0, -12px) rotate(-45deg); }
 
-    #mobile-nav-links {
+    .mobile-nav-links {
         display: none;
         flex-direction: row;
     }
 
-    .nav-links, .nav-link{
-        display: none;
+    .mobile-nav-links-is-open{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        top: 295px;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .mobile-nav-link>a{
+        color: black;
+        padding: 20px;
+        font-size: larger;
+        transition: 0.3s;
     }
 
     nav>button{
         display: none;
     }
-
 }
 
-/* @media screen and (min-width: 767px){
+/* 
+@media screen and (min-width: 767px){
 nav{
     background-color: white;
     position: fixed;

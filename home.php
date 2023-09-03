@@ -7,13 +7,13 @@
     get_header();
 
     $sections = array(
-        'hero' => 'hero-page',
-        'about-us' => 'about-us-page',
-        'our-services' => 'our-services-page',
-        'process' => 'process-page',
-        'action-statistics' => 'action-statistics-page',
-        'benefits-partners' => 'benefits-partners-page',
-        'testimonials' => 'testimonials-page'
+        //'hero' => 'hero-page',
+        //'about-us' => 'about-us-page',
+        //'our-services' => 'our-services-page',
+        //'process' => 'process-page',
+        //'action-statistics' => 'action-statistics-page',
+        //'benefits-partners' => 'benefits-partners-page',
+        //'testimonials' => 'testimonials-page'
     );
 
     foreach ($sections as $section => $template_part) {
