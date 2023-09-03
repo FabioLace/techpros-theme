@@ -3,11 +3,10 @@
         const navElement = document.getElementById('navbar');
         const logoElement = document.getElementById('logo');
 
-        window.addEventListener('scroll', () => {
+        function handleScroll() {
             const scrollTop = window.scrollY;
             const windowHeight = window.innerHeight;
             const documentHeight = document.body.clientHeight;
-
 
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
             if (scrollPercentage > 1) {
@@ -17,7 +16,10 @@
                 navElement.classList.remove('nav-scroll');
                 logoElement.src = 'wp-content/themes/techpros/assets/images/main-logo.png';
             }
-        });
+        }
+
+        handleScroll();
+        window.addEventListener('scroll', handleScroll);
     });
 </script>
 <nav id="navbar" class="d-flex flex-row">
