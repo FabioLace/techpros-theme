@@ -7,41 +7,35 @@
 @media screen and (min-width: 1023px){
     .contacts-social{
         display: flex;
+        background-color: var(--secondary-color);
+        padding: 10px 5em 10px 5em;
+        color: white;
+    }
+
+    .contacts-social a,a:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contacts-social i{ margin-right: 1px; }
+
+    .contacts, .social{
+        display: flex;
         flex-direction: row;
-	    background-color: var(--secondary-color);
-	    padding: 10px 5em 10px 5em
-	}
+        align-items: center;
+    }
 
-	.contacts-social a,a:hover{
-	    color: white;
-	    text-decoration: none;
-	}
+    .contacts{
+        margin-left: 1em;
+        margin-right: auto;
+    }
 
-	.contacts-social i{
-	    margin-right: 1px;
-	}
+    .contacts div{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 
-	.contacts, .social{
-	    display: flex;
-	    flex-direction: row;
-	    align-items: center;
-	}
+    .social{ margin-right: 1em; }
 
-	.contacts{
-	    margin-left: 1em;
-	    margin-right: auto;
-	}
-
-	.contacts div{
-	    margin-left: 1em;
-	    margin-right: 1em;
-	}
-
-	.social{
-	    margin-right: 1em;
-	}
-
-	.social a{
-	    margin-left: 1em;
-	}
+    .social a{ margin-left: 1em; }
 }
