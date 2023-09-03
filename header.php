@@ -14,4 +14,3 @@
         <?php wp_body_open();?>
         <div id="page">
             <?php get_template_part( 'template-parts/header/the-header' ); ?>
-            <!-- POST HEAD -->
