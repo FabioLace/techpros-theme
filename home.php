@@ -7,7 +7,7 @@
     get_header();
 
     $sections = array(
-        //'hero' => 'hero-page',
+        'hero' => 'hero-page',
         //'about-us' => 'about-us-page',
         //'our-services' => 'our-services-page',
         //'process' => 'process-page',

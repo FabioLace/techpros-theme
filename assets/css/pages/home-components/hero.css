@@ -1,123 +1,139 @@
-.hero{
-    background: url('../../../images/slider1.jpg') center center / cover scroll no-repeat;
-    margin-top: 82px;
-    height: auto;
-    color: white;
+@media screen and (min-width: 319px){
+    .hero{
+        background: url('../../../images/slider1.jpg') center center / cover scroll no-repeat;
+        height: auto;
+        color: white;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        padding: 242px 0 242px 0;
+    }
+
+    .hero-content .text{
+        width: auto;
+        text-align: center;
+    }
+
+    .hero-content .text>h4{ text-transform: capitalize; }
+
+    .hero-content h1{
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .hero-content .text>p{
+        margin: auto;
+        width: 50%;
+    }
+
+    .hero-buttons button{ margin: 10px; }
+
+    .it-service{ display: none;}
+
+    .main-services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 50px auto 0px auto;
+        box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
+    }
+
+    .service{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+    }
+
+    .service-content{ padding: 20px; }
+
+    .service-white{
+        background-color: white;
+        color: var(--ux-black);
+        border-bottom: 10px solid var(--secondary-color);
+        transition: 0.4s;
+    }
+
+    .service-white:hover{
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .service-white:hover #purple-icon{ color: white; }
+
+    .service-purple{
+        background-color: var(--secondary-color);
+        color: white;
+        border-bottom: 10px solid var(--primary-color);
+        transition: 0.4s;
+    }
+
+    .service-purple:hover{
+        background-color: var(--primary-color);
+        border-bottom: 10px solid var(--secondary-color);
+    }
+
+    .icon-h2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon-h2 h2{
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .icon-h2 i{
+        margin-bottom: 10px;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+    .service-white .icon-h2 i{
+        color: var(--secondary-color);
+        transition: 0.4s;
+    }
 }
 
-.hero-content{
-    padding: 242px;
-}
+@media screen and (min-width: 1023px) {
+    .hero{ margin-top: 82px; }
 
-.hero-content h1{
-    text-transform: uppercase;
-    font-weight: bolder;
-}
+    .hero-content { align-items: unset; }
 
-.hero-buttons button{
-    margin: 10px;
-}
+    .hero-buttons button{ margin: 10px; }
 
-.it-service{
-    background: var(--secondary-color);
-}
+    .hero-content .text>p{
+        margin: unset;
+        width: unset;
+    }
 
-.it-service:hover{
-    background: var(--primary-color);
-}
+    .it-service{
+        display: block;
+        background: var(--secondary-color);
+    }
+
+    .it-service:hover{ background: var(--primary-color); }
 
 
-/**
-* 
-* SERVICE BOXES
-*
-*/
-.main-services{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: max-content;
-    margin: 50px auto 0px auto;
-    box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
-}
+    /**
+    * 
+    * SERVICE BOXES
+    *
+    */
+    .main-services{
+        flex-direction: row;
+        justify-content: center;
+        align-items: unset;
+        width: max-content;
+        box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
+    }
 
-.service{
-    display: flex;
-    align-items: center;
-    width: 400px;
-    height: 250px;
-}
+    .service{ width: 400px; }
 
-.service-content{
-    padding: 20px;
-}
-
-.service-white{
-    background-color: white;
-    color: var(--ux-black);
-    border-bottom: 10px solid var(--secondary-color);
-    transition: 0.4s;
-}
-
-.service-white:hover{
-    background-color: var(--primary-color);
-    color: white;
-}
-
-.service-white:hover #purple-icon{
-    color: white;
-}
-
-.service-purple{
-    background-color: var(--secondary-color);
-    color: white;
-    border-bottom: 10px solid var(--primary-color);
-    transition: 0.4s;
-}
-
-.service-purple:hover{
-    background-color: var(--primary-color);
-    border-bottom: 10px solid var(--secondary-color);
-}
-
-/* .service-1{
-    background-image: url("../images/flipbox1.jpg");
-    opacity: 0.5;
-}
-
-.service-2{
-    background-image: url("../images/flipbox2.jpg");
-}
-
-.service-3{
-    background-image: url("../images/flipbox3.jpg");
-} */
-
-
-
-/**
-*
-* ICON-H2
-*
-*/
-.icon-h2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.icon-h2 h2{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.icon-h2 i{
-    margin-bottom: 10px;
-    margin-right: 10px;
-    font-size: 30px;
-}
-
-.service-white .icon-h2 i{
-    color: var(--secondary-color);
-    transition: 0.4s;
 }
