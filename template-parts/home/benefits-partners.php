@@ -49,25 +49,33 @@
         </div>
     </div>
     <div class="partners mt-5">
-        <div class="container">
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" alt="">
-            </div>
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" alt="">
-            </div>
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" alt="">
-            </div>
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" alt="">
-            </div>
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" alt="">
-            </div>
-            <div class="owl">
-                <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" alt="">
-            </div>
+        <script>
+            $ = jQuery.noConflict();
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel({
+                    center:true,
+                    items:6,
+                    dots:true,
+                    loop:true,
+                    margin:5,
+                    nav:true,
+                    autoWidth:false,
+                    onInitialized:removeCustomStyles
+                });
+            });
+
+            function removeCustomStyles() {
+                $(".owl-item").removeAttr("style");
+
+            }
+        </script>
+        <div class="owl-carousel partners-container">
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" >
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" >
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" >
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" >
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" >
+            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" >
         </div>            
     </div>
 </div>

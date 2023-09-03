@@ -1,4 +1,5 @@
 <?php
+    wp_enqueue_script('jquery');
 
     function techpros_register_styles(){
         $version = wp_get_theme()->get( 'Version' );
@@ -11,15 +12,13 @@
         wp_enqueue_style('techpros-style', get_template_directory_uri() . '/style.css', array('techpros-bootstrap', 'font-awesome', 'animate-css', 'owl-min', 'owl-theme'), $version, 'all');
     }
     
-    add_action('wp_enqueue_scripts', 'techpros_register_styles'); 
+    add_action('wp_enqueue_scripts', 'techpros_register_styles');
 
-    function techpros_custom_scripts(){
-        wp_enqueue_script('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', array(), '3.7.1', true);
-        wp_enqueue_script('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array(), '2.3.4', true);
-        //wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', array(), '10', true);
+    function include_owl(){
+        wp_enqueue_script('owl-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array(), '2.3.4', true);
     }
 
-    add_action('wp_enqueue_scripts', 'techpros_custom_scripts');
+    add_action('wp_enqueue_scripts', 'include_owl');
 
     // FILTRI E AZIONI PER DISABILITARE GUTENBERG
     add_filter( 'use_block_editor_for_post', '__return_false' );
