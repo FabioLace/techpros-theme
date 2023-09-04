@@ -31,17 +31,11 @@
         width: 50%;
     }
 
-    .hero-buttons button{ margin: 10px; }
+    .hero-buttons button{ margin: 20px; }
 
-    .it-service{ display: none;}
+    .hero-buttons>.it-service{ display: none; }
 
-    /*
-    *
-    * SERVICE BOX
-    *
-    */
-
-    .main-services{
+    .hero>.main-services{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,23 +63,11 @@
         transition: 0.4s;
     }
 
-    .service-white:hover{
-        background-color: var(--primary-color);
-        color: white;
-    }
-
-    .service-white:hover #purple-icon{ color: white; }
-
     .service-purple{
         background-color: var(--secondary-color);
         color: white;
         border-bottom: 10px solid var(--primary-color);
         transition: 0.4s;
-    }
-
-    .service-purple:hover{
-        background-color: var(--primary-color);
-        border-bottom: 10px solid var(--secondary-color);
     }
 
     .icon-h2{
@@ -112,35 +94,23 @@
 }
 
 @media screen and (min-width: 767px){
-    .it-service { display: block; }
-}
 
-@media screen and (min-width: 1023px) {
-    .hero{ margin-top: 82px; }
-
-    .hero-content { align-items: unset; }
-
-    .hero-buttons button{ margin: 10px; }
-
-    .hero-content .text>p{
-        margin: unset;
-        width: unset;
+    .hero{
+        margin-top: 0px;
     }
 
-    .it-service{
+    .hero-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* FIX HERE */
+    .hero-buttons>.it-service { 
         display: block;
         background: var(--secondary-color);
     }
 
-    .it-service:hover{ background: var(--primary-color); }
-
-
-    /**
-    * 
-    * SERVICE BOXES
-    *
-    */
-    .main-services{
+    .hero>.main-services{
         flex-direction: row;
         justify-content: center;
         align-items: unset;
@@ -148,6 +118,67 @@
         box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
     }
 
-    .service{ width: 400px; }
+    .service{
+        width: 400px;
+        height: 250px;
+    }
+}
 
+@media screen and (min-width: 1023px) {    
+    .hero-content{
+        align-items: unset;
+        justify-content: left;
+        padding: 242px;
+        font-size: unset;
+    }
+
+    .hero-content .text{
+        width: auto;
+        text-align: unset;
+    }
+
+    .hero-content .text>p{
+        margin: unset;
+        width: unset;
+    }
+    
+    .hero-buttons button{
+        margin: 10px;
+    }
+    
+    .it-service:hover{
+        background: var(--primary-color);
+    }
+    
+    .service-content{
+        padding: 20px;
+        font-size: unset;
+    }
+        
+    .service-white:hover{
+        background-color: var(--primary-color);
+        color: white;
+    }
+    
+    .service-white:hover #purple-icon{
+        color: white;
+    }
+    
+    .service-purple:hover{
+        background-color: var(--primary-color);
+        border-bottom: 10px solid var(--secondary-color);
+    }
+    
+    /* .service-1{
+        background-image: url("../images/flipbox1.jpg");
+        opacity: 0.5;
+    }
+    
+    .service-2{
+        background-image: url("../images/flipbox2.jpg");
+    }
+    
+    .service-3{
+        background-image: url("../images/flipbox3.jpg");
+    } */
 }
