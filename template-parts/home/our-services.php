@@ -1,8 +1,8 @@
 <div class="our-services">
     <div class="services-content">
-        <div class="text-button d-flex flex-row mb-5 align-items-center">
+        <div class="text-button">
             <div class="text">
-                <h4> // Our Services</h4>
+                <h4>// Our Services</h4>
                 <h1>We Offer A Wide<br>Variety Of IT Services</h1>
             </div>
             <button class="view-services">
