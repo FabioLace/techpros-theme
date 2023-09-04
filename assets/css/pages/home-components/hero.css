@@ -11,6 +11,7 @@
         align-items: center;
         margin: 0 auto 0 auto;
         padding: 242px 0 242px 0;
+        font-size: xx-large;
     }
 
     .hero-content .text{
@@ -34,23 +35,32 @@
 
     .it-service{ display: none;}
 
+    /*
+    *
+    * SERVICE BOX
+    *
+    */
+
     .main-services{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 50px auto 0px auto;
-        box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
+        box-shadow: 30px 30px 30px 0px rgba(0,0,0,0.75);
     }
 
     .service{
         display: flex;
         align-items: center;
         width: 100%;
-        height: 250px;
+        height: fit-content;
     }
 
-    .service-content{ padding: 20px; }
+    .service-content{ 
+        padding: 100px;
+        font-size: xx-large;
+    }
 
     .service-white{
         background-color: white;
@@ -99,6 +109,10 @@
         color: var(--secondary-color);
         transition: 0.4s;
     }
+}
+
+@media screen and (min-width: 767px){
+    .it-service { display: block; }
 }
 
 @media screen and (min-width: 1023px) {
