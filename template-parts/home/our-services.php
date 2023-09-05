@@ -9,7 +9,7 @@
                 View All Services <i class="fa-solid fa-angle-right"></i>
             </button>
         </div>
-        <div class="services-cards d-flex flex-row justify-content-center">
+        <div class="services-cards">
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     const serviceCards = document.getElementsByClassName("card");

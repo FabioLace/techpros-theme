@@ -94,7 +94,6 @@
 
 @media screen and (min-width: 767px){
     .hero{
-        background: url('../../../images/slider1.jpg') center center / cover scroll no-repeat; 
         margin-top: 0px;
     }
 
@@ -114,7 +113,7 @@
     }
 }
 
-@media screen and (min-width: 1023px) { 
+@media screen and (min-width: 1023px) {
     .hero>.main-services{
         flex-direction: row;
         justify-content: center;
