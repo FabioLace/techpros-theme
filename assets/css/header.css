@@ -1,7 +1,9 @@
 @import "./navbar.css";
 
 @media screen and (min-width: 319px){
-    .contacts-social{ display: none; }
+    .contacts-social{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1023px){
@@ -17,7 +19,9 @@
         text-decoration: none;
     }
 
-    .contacts-social i{ margin-right: 1px; }
+    .contacts-social i{
+        margin-right: 1px;
+    }
 
     .contacts, .social{
         display: flex;
@@ -35,7 +39,11 @@
         margin-right: 1em;
     }
 
-    .social{ margin-right: 1em; }
+    .social{
+        margin-right: 1em;
+    }
 
-    .social a{ margin-left: 1em; }
+    .social a{
+        margin-left: 1em;
+    }
 }

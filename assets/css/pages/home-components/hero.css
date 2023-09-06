@@ -19,7 +19,9 @@
         text-align: center;
     }
 
-    .hero-content .text>h4{ text-transform: capitalize; }
+    .hero-content .text>h4{
+        text-transform: capitalize;
+    }
 
     .hero-content h1{
         text-transform: uppercase;
@@ -30,9 +32,13 @@
         margin: auto;
     }
 
-    .hero-buttons button{ margin: 20px; }
+    .hero-buttons button{
+        margin: 20px;
+    }
 
-    .hero-buttons>.it-service{ display: none; }
+    .hero-buttons>.it-service{
+        display: none;
+    }
 
     .hero>.main-services{
         display: flex;
@@ -50,7 +56,7 @@
         height: fit-content;
     }
 
-    .service-content{ 
+    .service-content{
         padding: 50px;
         font-size: x-large;
     }
@@ -102,8 +108,7 @@
         flex-direction: row;
     }
 
-    /* FIX HERE */
-    .hero-buttons>.it-service { 
+    .hero-buttons>.it-service{
         display: block;
         background: var(--secondary-color);
     }
@@ -122,7 +127,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: unset;
-        width: max-content;
+        width: 100%;
         box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
     }
 
@@ -142,11 +147,11 @@
         margin: unset;
         width: unset;
     }
-    
+
     .hero-buttons button{
         margin: 10px;
     }
-    
+
     .it-service:hover{
         background: var(--primary-color);
     }
@@ -155,35 +160,35 @@
         width: 400px;
         height: 250px;
     }
-    
+
     .service-content{
         padding: 20px;
         font-size: unset;
     }
- 
+
     .service-white:hover{
         background-color: var(--primary-color);
         color: white;
     }
-    
+
     .service-white:hover #purple-icon{
         color: white;
     }
-    
+
     .service-purple:hover{
         background-color: var(--primary-color);
         border-bottom: 10px solid var(--secondary-color);
     }
-    
+
     /* .service-1{
         background-image: url("../images/flipbox1.jpg");
         opacity: 0.5;
     }
-    
+
     .service-2{
         background-image: url("../images/flipbox2.jpg");
     }
-    
+
     .service-3{
         background-image: url("../images/flipbox3.jpg");
     } */
