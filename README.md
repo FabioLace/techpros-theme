@@ -15,9 +15,11 @@ Integrazione tramite CDN in header.php
 Non è completamente integrato con il CMS, perché la maggior parte delle cose è scritta direttamente su file HTML e le immagini sono presenti negli assets. SE VUOI lascerò alcune righe commentate che potranno essere utili nel sostituire i testi/immagini con quello che vuoi tu, ma dovrai poi installare il famoso plugin <a href="https://wordpress.org/plugins/advanced-custom-fields/">Advanced Custom Fields</a> nel tuo progetto principale.
 
 Potrebbe darti problemi quando usi i dev tools con la visualizzazione responsive, in tal caso:
+
 * Installa e attiva <a href="https://wordpress.org/plugins/wp-super-cache/">WP SuperCache</a>
 * Cancella la cache di Wordpress
 * Esci dalla modalità responsive
 * Ricarica
 * Rientra in responsive
+
 Se non funziona, cazzi tuoi.
