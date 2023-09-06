@@ -1,7 +1,14 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-# Tema Techpros
-È un tema per Wordpress basato su https://wp.ditsolution.net/techpros/.
+<div align="center">
+  <p>
+    <img src="assets/images/main-logo.png">
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/License-GPLv3-red?style=for-the-badge">
+    <img src="https://img.shields.io/badge/wordpress-grey?style=for-the-badge&logo=wordpress">
+  </p>
+</div>
+  
+Tema per Wordpress basato su https://wp.ditsolution.net/techpros/.
 
 # Librerie e plugin esterni
 Integrazione tramite wp_enqueue_style in functions.php:
@@ -20,7 +27,7 @@ Non è completamente integrato con il CMS, perché la maggior parte delle cose �
 
 Potrebbe darti problemi quando usi i dev tools con la visualizzazione responsive, in tal caso:
 
-* Installa e attiva <a href="https://wordpress.org/plugins/wp-super-cache/">WP SuperCache</a>
+* Installa e attiva <a href="https://wordpress.org/plugins/wp-super-cache/">WP SuperCache</a>. Se sei in locale e usi Wordpress puro (quindi niente roba come Bedrock), potresti dover aggiungere <code>define('FS_METHOD','direct');</code> nel tuo wp-config.php <b>MA RICORDATI DI CANCELLARLO SE IL TUO SITO DEVE ANDARE IN PRODUZIONE!</b>
 * Cancella la cache di Wordpress
 * Esci dalla modalità responsive
 * Ricarica
