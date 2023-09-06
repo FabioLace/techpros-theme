@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # Tema Techpros
 È un tema per Wordpress basato su https://wp.ditsolution.net/techpros/.
 
@@ -10,6 +12,8 @@ Integrazione tramite wp_enqueue_style in functions.php:
 Integrazione tramite CDN in header.php
 * <a href="https://owlcarousel2.github.io/OwlCarousel2/">Owl Carousel 2.3.4</a>
 
+# Licenza
+Fai quello che cazzo ti pare con 'sto tema, basta che non lo rivendi né lo spacci per tuo al 100%. Quindi boh, GNU General Public License v3.0,
 
 # Cose da sapere
 Non è completamente integrato con il CMS, perché la maggior parte delle cose è scritta direttamente su file HTML e le immagini sono presenti negli assets. SE VUOI lascerò alcune righe commentate che potranno essere utili nel sostituire i testi/immagini con quello che vuoi tu, ma dovrai poi installare il famoso plugin <a href="https://wordpress.org/plugins/advanced-custom-fields/">Advanced Custom Fields</a> nel tuo progetto principale.
@@ -21,5 +25,11 @@ Potrebbe darti problemi quando usi i dev tools con la visualizzazione responsive
 * Esci dalla modalità responsive
 * Ricarica
 * Rientra in responsive
+* Ripeti a caso i passaggi
 
 Se non funziona, cazzi tuoi.
+
+# Cose FONDAMENTALI da sapere
+* Realizzato su GNU/Linux
+* Testato sui motori Quantum e Blink
+* Testato su Wordpress 6.2.2 e 6.3
