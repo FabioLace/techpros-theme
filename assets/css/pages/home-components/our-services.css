@@ -100,12 +100,18 @@
 @media screen and (min-width: 1023px) {
 /* TO DO */
     .services-content{
-        padding: 100px 242px 100px 242px;
+        padding: 100px 121px 100px 121px;
     }
 
     .text-button{
         flex-direction: row;
         align-items: center;
+        margin-left: unset;
+    }
+
+    .services-cards{
+        display: flex;
+        flex-direction: row;
     }
 
     .view-services{
