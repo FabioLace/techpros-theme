@@ -11,7 +11,7 @@
         'about-us' => 'about-us-page',
         'our-services' => 'our-services-page',
         'process' => 'process-page',
-        //'action-statistics' => 'action-statistics-page',
+        'action-statistics' => 'action-statistics-page',
         //'benefits-partners' => 'benefits-partners-page',
         //'testimonials' => 'testimonials-page'
     );
