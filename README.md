@@ -25,17 +25,6 @@ Fai quello che cazzo ti pare con 'sto tema, basta che non lo rivendi né lo spac
 # Cose da sapere
 Non è completamente integrato con il CMS, perché la maggior parte delle cose è scritta direttamente su file HTML e le immagini sono presenti negli assets. SE VUOI lascerò alcune righe commentate che potranno essere utili nel sostituire i testi/immagini con quello che vuoi tu, ma dovrai poi installare il famoso plugin <a href="https://wordpress.org/plugins/advanced-custom-fields/">Advanced Custom Fields</a> nel tuo progetto principale.
 
-Potrebbe darti problemi quando usi i dev tools con la visualizzazione responsive, in tal caso:
-
-* Installa e attiva <a href="https://wordpress.org/plugins/wp-super-cache/">WP SuperCache</a>. Se sei in locale e usi Wordpress puro (quindi niente roba come Bedrock), potresti dover aggiungere <code>define('FS_METHOD','direct');</code> nel tuo wp-config.php <b>MA RICORDATI DI CANCELLARLO SE IL TUO SITO DEVE ANDARE IN PRODUZIONE!</b>
-* Cancella la cache di Wordpress
-* Esci dalla modalità responsive
-* Ricarica
-* Rientra in responsive
-* Ripeti a caso i passaggi
-
-Se non funziona, cazzi tuoi.
-
 # Cose FONDAMENTALI da sapere
 * Realizzato su GNU/Linux
 * Testato sui motori Quantum e Blink
