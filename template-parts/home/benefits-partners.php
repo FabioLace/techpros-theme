@@ -1,8 +1,8 @@
 <div class="benefits-partners">
-    <div class="benefits d-flex flew-row justify-content-center align-items-center">
+    <div class="benefits">
         <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/why-choose.png' ); ?>">
         <div class="text">
-            <div class="h5-line d-flex flex-row align-items-center">
+            <div class="h5-line">
                 <h5>Our benefits</h5>
                 <div class="line"></div>
             </div>
