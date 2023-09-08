@@ -76,11 +76,12 @@
 
 @media screen and (min-width: 1023px){
     nav{
-        position: fixed;
         flex-direction: row;
         padding: 1em 5em 1em 5em; /* SI SMINCIHA TRA 768px E 1024px */
         z-index: 99999;
     }
+
+    
     
     nav img{ margin: 0 auto 0 0; }
 
@@ -162,7 +163,8 @@
     nav>button{ display: block; }
 
     /* SCROLL EFFECT */
-    .nav-scroll{
+    nav.nav-scroll{
+        position: fixed;
         background-color: black;
         color: white;
         top: 0;
