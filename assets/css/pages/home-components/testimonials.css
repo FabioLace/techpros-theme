@@ -1,5 +1,6 @@
+/* NON SERVE LA MEDIA QUERY */
 .testimonials-and-text{
-    background-image: url("../../../images/testi1.jpg");
+    background: url("../../../images/testi1.jpg") center center/cover no-repeat;
 }
 
 .testimonials-container{
@@ -30,19 +31,6 @@
     border-radius: 50%;
 }
 
-.portrait-icon {
-    position: absolute;
-    bottom: 7px;
-    right: -16px;
-    background-color: #43baff;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    border-radius: 50%;
-    line-height: 50px;
-}
-
 .portrait-container i{
     font-size: 18px;
     position: absolute;
@@ -55,5 +43,5 @@
     text-align: center;
     color: #fff;
     border-radius: 50%;
-    z-index: 1; /* Assicura che l'elemento ::before sia sopra l'immagine */
+    z-index: 1;
 }

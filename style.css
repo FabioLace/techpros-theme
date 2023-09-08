@@ -22,3 +22,18 @@ Version: 1.0
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+button {
+    border: none;
+    outline: none;
+    padding: 9px 29px;
+    background: #43BAFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: var(--secondary-color);
+}

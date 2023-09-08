@@ -1,8 +1,8 @@
 <div class="benefits-partners">
-    <div class="benefits d-flex flew-row justify-content-center align-items-center">
+    <div class="benefits">
         <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/why-choose.png' ); ?>">
         <div class="text">
-            <div class="h5-line d-flex flex-row align-items-center">
+            <div class="h5-line">
                 <h5>Our benefits</h5>
                 <div class="line"></div>
             </div>
@@ -50,30 +50,18 @@
     </div>
     <div class="partners mt-5">
         <script>
-            $ = jQuery.noConflict();
-            $(document).ready(function(){
-                $(".owl-carousel").owlCarousel({
-                    nav:true,
-                    dots:true,
-                    loop:true,
-                    margin:10,
-                    items:6,
-                    autoWidth:false,
-                    onInitialized:removeCustomStyles,
-                });
-            });
-
-            function removeCustomStyles() {
-                $(".owl-item").removeAttr("style");
-            }
+            
         </script>
-        <div class="owl-carousel owl-theme partners-container">
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" >
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" >
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" >
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" >
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" >
-            <img class="item" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" >
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand1.png' ); ?>" >
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand2.png' ); ?>" >
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand3.png' ); ?>" >
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand4.png' ); ?>" >
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand5.png' ); ?>" >
+                <img class="swiper-slide" src="<?= esc_url( get_template_directory_uri() . '/assets/images/brand6.png' ); ?>" >
+            </div>
+            <div class="swiper-pagination"></div>        
         </div>            
     </div>
 </div>
