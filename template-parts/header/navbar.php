@@ -2,6 +2,14 @@
     document.addEventListener("DOMContentLoaded", function() {
         const navElement = document.getElementById('navbar');
         const logoElement = document.getElementById('logo');
+        var mobileSubOpeners = document.querySelectorAll('.mobile-sub-opener');
+
+        mobileSubOpeners.forEach(function (opener) {
+            opener.addEventListener('click', function () {
+                var parent = opener.parentElement;
+                toggleDropdown(parent);
+            });
+        });
 
         function handleScroll() {
             const scrollTop = window.scrollY;
@@ -25,7 +33,6 @@
     function openHamburgerMenu() {
         const hamburger = document.getElementById('hamburger');
         const mobileNavLink = document.querySelector(".mobile-nav-links");
-        console.log(mobileNavLink);
         if(!hamburger.classList.contains('hamburger-is-open')){
             hamburger.classList.add('hamburger-is-open');
             mobileNavLink.classList.add('mobile-nav-links-is-open');
@@ -34,9 +41,15 @@
             mobileNavLink.classList.remove('mobile-nav-links-is-open');
         }
     }
-    //FUNZIONE PER APERTURA MENU MOBILE
-    // ...
-
+    //FUNZIONE PER APERTURA DROPDOWN
+    function toggleDropdown(menuElement) {
+        var dropdown = menuElement.querySelector('.mobile-dropdown');
+        if (dropdown.style.display === 'block') {
+            dropdown.style.display = 'none';
+        } else {
+            dropdown.style.display = 'block';
+        }
+    }
     //FUNZIONE PER APERTURA SOTTOMENU
     //...
 
@@ -58,18 +71,18 @@
                 <a href="#">Home</a>
                 <span id="home" class="mobile-sub-opener">+</span>
                 <div class="mobile-dropdown">
-                    <a href="#">HOME ONE</a>
-                    <a href="#">HOME TWO</a>
-                    <a href="#">HOME THREE</a>
-                    <a href="#">HOME FOUR</a>
-                    <a href="#">HOME FIVE</a>
-                    <a href="#">HOME SIX</a>
+                    <a href="#">Home One</a>
+                    <a href="#">Home Two</a>
+                    <a href="#">Home Three</a>
+                    <a href="#">Home Four</a>
+                    <a href="#">Home Five</a>
+                    <a href="#">Home Six</a>
                     <a href="#">FAQ</a>
                 </div>
             </div>
             <div class="mobile-nav-link">
                 <a href="#">Company</a>
-                <span id="company" class="mobile-sub-opener">+</span>
+                <span class="mobile-sub-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">About Us Two</a>
                     <a href="#">Why Choose Us</a>
@@ -81,10 +94,10 @@
                             <a href="#">Portfolio Three</a>
                         </div> -->
                     <a class="mobile-link-with-sub-menu" href="#">Our Service</a>
-                        <!-- <div class="mobile-sub-menu">
+                        <div class="mobile-sub-menu">
                             <a href="#">Our Service Two</a>
                             <a href="#">Our Service Three</a>
-                        </div> -->
+                        </div>
                     <a href="#">Case study</a>
                     <a href="#">Pricing plan</a>
                     <a href="#">Faq</a>
@@ -139,12 +152,12 @@
         <div class="nav-link">
             <a href="#">Home</a>
             <div class="dropdown">
-                <a href="#">HOME ONE</a>
-                <a href="#">HOME TWO</a>
-                <a href="#">HOME THREE</a>
-                <a href="#">HOME FOUR</a>
-                <a href="#">HOME FIVE</a>
-                <a href="#">HOME SIX</a>
+                <a href="#">Home One</a>
+                <a href="#">Home Two</a>
+                <a href="#">Home Three</a>
+                <a href="#">Home Four</a>
+                <a href="#">Home Five</a>
+                <a href="#">Home Six</a>
                 <a href="#">FAQ</a>
             </div>
         </div>
