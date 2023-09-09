@@ -6,8 +6,8 @@
         <title><?php wp_title( '|', true, 'right' ); ?></title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat" >
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:Montserrat:400,500,600,700,800,900" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:400,500,600,700,900" >
         <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">

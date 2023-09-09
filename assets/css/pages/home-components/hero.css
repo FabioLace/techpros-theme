@@ -11,7 +11,6 @@
         align-items: center;
         margin: 0 auto 0 auto;
         padding: 121px 0 121px 0;
-        font-size: large;
     }
 
     .hero-content .text{
@@ -21,6 +20,9 @@
 
     .hero-content .text>h4{
         text-transform: capitalize;
+        font: 600 16px "Nunito", sans-serif;
+        margin-top: 55px;
+        margin-bottom: 24px;
     }
 
     .hero-content h1{
@@ -111,10 +113,6 @@
     .hero-buttons>.it-service{
         display: block;
         background: var(--secondary-color);
-    }
-
-    .hero-content{
-        font-size: unset;
     }
 }
 
