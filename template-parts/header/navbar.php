@@ -2,11 +2,11 @@
     document.addEventListener("DOMContentLoaded", function() {
         const navElement = document.getElementById('navbar');
         const logoElement = document.getElementById('logo');
-        var mobileSubOpeners = document.querySelectorAll('.mobile-sub-opener');
+        const mobileDropdownOpeners = document.querySelectorAll('.mobile-dropdown-opener');
 
-        mobileSubOpeners.forEach(function (opener) {
+        mobileDropdownOpeners.forEach(function (opener) {
             opener.addEventListener('click', function () {
-                var parent = opener.parentElement;
+                const parent = opener.parentElement;
                 toggleDropdown(parent);
             });
         });
@@ -41,6 +41,7 @@
             mobileNavLink.classList.remove('mobile-nav-links-is-open');
         }
     }
+
     //FUNZIONE PER APERTURA DROPDOWN
     function toggleDropdown(menuElement) {
         var dropdown = menuElement.querySelector('.mobile-dropdown');
@@ -50,8 +51,6 @@
             dropdown.style.display = 'block';
         }
     }
-    //FUNZIONE PER APERTURA SOTTOMENU
-    //...
 
 </script>
 <nav id="navbar">
@@ -69,7 +68,7 @@
         <div class="mobile-nav-links"><!--SERVE ANIMAZIONE -->
             <div class="mobile-nav-link">
                 <a href="#">Home</a>
-                <span id="home" class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">Home One</a>
                     <a href="#">Home Two</a>
@@ -82,22 +81,28 @@
             </div>
             <div class="mobile-nav-link">
                 <a href="#">Company</a>
-                <span class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">About Us Two</a>
                     <a href="#">Why Choose Us</a>
                     <a href="#">Team Member</a>
                     <a href="#">Single Team</a>
-                    <a class="mobile-link-with-sub-menu" href="#">Portfolio</a>
-                        <!-- <div class="mobile-sub-menu">
-                            <a href="#">Portfolio Two</a>
-                            <a href="#">Portfolio Three</a>
-                        </div> -->
-                    <a class="mobile-link-with-sub-menu" href="#">Our Service</a>
-                        <div class="mobile-sub-menu">
-                            <a href="#">Our Service Two</a>
-                            <a href="#">Our Service Three</a>
-                        </div>
+                    <!-- <div class="mobile-nav-link">
+                        <a href="#">Portfolio</a>
+                        <span class="mobile-dropdown-opener">+</span>
+                    </div>
+                    <div class="mobile-dropdown">
+                        <a href="#">Portfolio Two</a>
+                        <a href="#">Portfolio Three</a>
+                    </div>
+                    <div class="mobile-nav-link">
+                        <a href="#">Our Service</a>
+                        <span class="mobile-dropdown-opener">+</span>
+                    </div>
+                    <div class="mobile-dropdown">
+                        <a href="#">Our Service Two</a>
+                        <a href="#">Our Service Three</a>
+                    </div> -->
                     <a href="#">Case study</a>
                     <a href="#">Pricing plan</a>
                     <a href="#">Faq</a>
@@ -105,7 +110,7 @@
             </div>
             <div class="mobile-nav-link">
                 <a href="#">IT Solution</a>
-                <span id="it-solution" class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">IT Services</a>
                     <a href="#">Managed IT Services</a>
@@ -116,7 +121,7 @@
             </div>
             <div class="mobile-nav-link">
                 <a href="#">Elements</a>
-                <span id="elements" class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">Services</a>
                     <a href="#">Info Box</a>
@@ -128,7 +133,7 @@
             </div>
             <div class="mobile-nav-link">
                 <a href="#">Blog</a>
-                <span id="blog" class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">Blog List</a>
                     <a href="#">Blog Grid</a>
@@ -137,7 +142,7 @@
             </div>
             <div class="mobile-nav-link">
                 <a href="#">Contact</a>
-                <span id="contact" class="mobile-sub-opener">+</span>
+                <span class="mobile-dropdown-opener">+</span>
                 <div class="mobile-dropdown">
                     <a href="#">Contact Style One</a>
                     <a href="#">Contact Style Two</a>
