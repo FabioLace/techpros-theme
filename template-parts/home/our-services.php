@@ -2,8 +2,8 @@
     <div class="services-content">
         <div class="text-button">
             <div class="text">
-                <h4>// Our Services</h4>
-                <h1>We Offer A Wide<br>Variety Of IT Services</h1>
+                <h5>// Our Services</h5>
+                <h3>We Offer A Wide<br>Variety Of IT Services</h3>
             </div>
             <button class="view-services">
                 View All Services <i class="fa-solid fa-angle-right"></i>

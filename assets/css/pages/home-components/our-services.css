@@ -2,6 +2,7 @@
     .our-services{
         background-color: var(--secondary-color);
         color: white;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .services-content{
@@ -19,15 +20,16 @@
         margin: unset;
     }
 
-    .text-button .text h4{
-        font-weight: 700;
+    .text-button .text h5{
+        font-size: 16px;
         text-transform: uppercase;
-        font-size: medium;
     }
 
-    .text-button .text h1{
+    .text-button .text h3{
         font-weight: 700;
-        font-size: x-large;
+        text-transform: capitalize;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .view-services{
@@ -85,6 +87,16 @@
 }
 
 @media screen and (min-width: 767px) {
+    .text-button{
+        flex-direction: row;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .services-content .text-button>.text{
+        margin-right: auto;
+    }
+
     .services-cards{
         display: grid;
         justify-content: center;
@@ -98,15 +110,13 @@
 }
 
 @media screen and (min-width: 1023px) {
-/* TO DO */
     .services-content{
         padding: 100px 121px 100px 121px;
     }
 
     .text-button{
-        flex-direction: row;
-        align-items: center;
         margin-left: unset;
+        margin-right: unset;
     }
 
     .services-cards{
@@ -157,9 +167,8 @@
         clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%,0 0);
     }
 
-    .activated,.always-activated{
+    .activated, .always-activated{
         background-color: var(--primary-color);
-
     }
 
     .activated, .always-activated:hover{
