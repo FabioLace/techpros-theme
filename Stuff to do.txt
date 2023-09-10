@@ -1,6 +1,2 @@
 — Fixa CSS nella sezione partners
-— Integra Owl nelle sezioni dove serve
 - Fixa font-size e font-family
-
-MOBILE:
-— Fixa menu mobile a scomparsa
