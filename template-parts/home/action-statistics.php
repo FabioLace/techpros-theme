@@ -42,9 +42,7 @@
         });
     </script>
     <div class="call-to-action">
-        <h1 class="mr-1">
-            We Provide Worldwide IT Service For </br> Small & Mid-Sized Business
-        </h1>
+        <h2>We Provide Worldwide IT Service For </br> Small & Mid-Sized Business</h2>
         <p>
             Nectar accumsan id nisi in ullamcorper. Nullam leo maximus vitae interdum non,
             sit amet est. Aenean sagittis tellus eu nicce esedatu occeanas del ano.

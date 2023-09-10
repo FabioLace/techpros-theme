@@ -14,22 +14,25 @@
         margin-right: 50px;
     }
 
-    .statistics{
-        display: flex;
-        flex-direction: column;
+    .call-to-action h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 45px auto 28px;
+    }
+
+    .call-to-action p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 1rem;
     }
 
     .call-to-action button{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         color: var(--primary-color);
-        padding: 15px 20px;
+        padding: 12px 28px;
         border-radius: 5px;
         text-transform: none;
-    }
-
-    .call-to-action h2{
-        font-weight: bolder;
-        margin-bottom: 10px;
     }
 
     .statistics{
@@ -38,6 +41,7 @@
         justify-content: center;
         width: 100%;
         margin: 50px auto 0px auto;
+        font-family: 'Montserrat', sans-serif;
 /*      box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);*/
     }
 
@@ -105,17 +109,14 @@
         gap: unset;
         grid-template-columns: 45% 45%;
         column-gap: 0px;
+        margin: 50px 0px 0px 0px;
         row-gap: 0px;
         grid-template-rows: 50% 50%;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
     }
 }
 
 @media screen and (min-width: 1023px) {
-    .call-to-action button{
-        padding: 5px;
-        width: 20%;
-    }
-
     .call-to-action button:hover{
         background-color: var(--primary-color);
         color: white;
@@ -125,5 +126,8 @@
         display: flex;
         flex-direction: row;
         box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 }
