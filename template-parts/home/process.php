@@ -17,7 +17,7 @@
                 <div class="vertical-line"></div>
             </div>
             <div class="step-text">
-                <h5>Select a problem</h5>
+                <h2>Select a problem</h2>
                 <p>
                     We have the technology and industry expertise to develop solutions that can connect people and businesses.
                 </p>
@@ -34,7 +34,7 @@
                 <div class="vertical-line"></div>
             </div>
             <div class="step-text">
-                <h5>Collect data</h5>
+                <h2>Collect data</h2>
                 <p>
                     We have the technology and industry expertise to develop solutions that can connect people and businesses.
                 </p>
@@ -51,10 +51,8 @@
                 <div class="vertical-line"></div>
             </div>
             <div class="step-text">
-                <h5>Process Data</h5>
-                <p>
-                    We have the technology and industry expertise to develop solutions that can connect people and businesses.
-                </p>
+                <h2>Process Data</h2>
+                <p>We have the technology and industry expertise to develop solutions that can connect people and businesses.</p>
             </div>
         </div>
     </div>

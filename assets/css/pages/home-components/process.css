@@ -1,6 +1,30 @@
 @media screen and (min-width: 319px){
     .process{
+        margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    .process .text{
+        margin: unset;
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .process h2{
+        font-size: 30px;
+    }
+
+    .process .h5-line{
+        margin-bottom: 13px;
+    }
+
+    .process .h5-line h5{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .process .h5-line .line{
+        margin-left: unset;
     }
 
     .step-grid{
@@ -30,7 +54,7 @@
     }
 
     .icon-counter i{
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 50px;
     }
 
@@ -39,7 +63,7 @@
         position: absolute;
         z-index: 1;
         color: var(--primary-color);
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         border-radius: 50%;
         width: 50px;
         height: 50px;
@@ -58,27 +82,31 @@
         margin-bottom: 10px;
     }
 
+    .dot, .vertical-line{
+        border: 1px solid rgb(128, 128, 128);
+    }
+
     .dot{
         width: 15px;
         height: 15px;
         border-radius: 50%;
         background-color: none;
-        border: 1px solid gray;
         margin-bottom: 2px;
     }
 
     .vertical-line{
         width: 2px;
         height: 40px;
-        border: 1px solid gray;
     }
 
     .step-text{
         width: 200px;
     }
 
-    .step-text h5{
+    .step-text h2{
         font-weight: 700;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .direction-sign{
