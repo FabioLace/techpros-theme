@@ -1,6 +1,18 @@
 /* NON SERVE LA MEDIA QUERY */
 .testimonials-and-text{
     background: url("../../../images/testi1.jpg") center center/cover no-repeat;
+    padding: 85px 0px 116px 0px;
+}
+
+.testimonials-and-text .h5-line h5{
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.testimonials-and-text h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 13px 0px 3px 0px; 
 }
 
 .testimonials-container{

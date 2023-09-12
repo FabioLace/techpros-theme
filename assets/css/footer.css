@@ -51,7 +51,9 @@
 }
 
 @media screen and (min-width: 767px) {
-    
+    .brand-identity{
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 1023px) {
@@ -61,7 +63,6 @@
         gap: unset;
         text-align: unset;
         font-size: unset;
-        margin-left: 150px;
     }
 
     .contacts-template{

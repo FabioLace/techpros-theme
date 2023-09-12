@@ -12,19 +12,12 @@
     }
 
     .benefits>img{
-        width: 100%;
+        width: 50%;
         height: auto;
         margin-right: 50px;
     }
 
-    .benefits .h5-line h5{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-    }
-
     .benefits h3{
-        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         margin: 13px 0px 3px;
     }
@@ -86,6 +79,10 @@
 
     .benefits>img{
         width: 30%;
+    }
+
+    .benefits .line{
+        margin-left: 30px;
     }
 
     .benefits .icon {

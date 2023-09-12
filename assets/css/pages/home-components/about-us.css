@@ -2,7 +2,6 @@
     .about-us{
         margin-top: 50px;
         margin-bottom: 50px;
-        font-family: 'Montserrat', sans-serif;
     }
 
     .content{
@@ -12,13 +11,6 @@
 
     .text{
         margin: 50px;
-    }
-
-    .h5-line h5{
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 15px;
-        color: var(--secondary-color);
     }
 
     .line{
@@ -31,7 +23,6 @@
     }
 
     .text p{
-        font-family: 'Nunito', sans-serif;
         font-size: 16px;
     }
 
@@ -77,18 +68,12 @@
         width: 40%;
     }
 
-    .h5-line{
-        display: flex;
+    .about-us .h5-line{
         flex-direction: row;
-        align-items: center;
     }
 
-    .line{
-        display: block;
+    .about-us .line{
         margin-left: 30px;
-        width: 100px;
-        height: 2px;
-        background-color: var(--secondary-color);
     }
 
     .paragraph{

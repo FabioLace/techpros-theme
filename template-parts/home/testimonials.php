@@ -4,7 +4,7 @@
             <h5>Client Rewiews</h5>
             <div class="line features-line"></div>
         </div>
-        <h2>What Say Our Customers</h2>
+        <h3>What Say Our Customers</h3>
     </div>
     <div class="testimonials-container">
         <div class="single-testimonial">
