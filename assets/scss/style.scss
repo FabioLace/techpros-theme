@@ -1,0 +1,9 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./components/header.scss";
+@import "./components/navbar.scss";
+
+@import "./pages/home.scss";
+@import "./pages/home/*";
+
