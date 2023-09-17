@@ -17,7 +17,7 @@ Integrazione tramite wp_enqueue_style in functions.php:
 * <a href="https://fontawesome.com/">Fontawesome 6.4.2</a>
 
 Integrazione tramite CDN in header.php
-* <a href="https://swiperjs.com/">Swiper JS 2.3.4</a>
+* <a href="https://swiperjs.com/">Swiper 10.2.0</a>
 
 # Licenza
 Fai quello che cazzo ti pare con 'sto tema, basta che non lo rivendi né lo spacci per tuo al 100%.
