@@ -210,7 +210,7 @@
         z-index: -1;
         background-size: cover;
         opacity: 0;
-        transition: .5s;
+        transition: .3s;
     }
 
     .service-1:hover:before{
@@ -254,7 +254,7 @@
         z-index: -1;
         background-size: cover;
         opacity: 0;
-        transition: .5s;
+        transition: .3s;
     }
 
     .service-2:hover:before{
