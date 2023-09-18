@@ -10,12 +10,12 @@
     .contacts-social{
         display: flex;
         background-color: var(--secondary-color);
-        padding: 10px 4em 10px 4em;
-        color: white;
+        padding: 10px 4em;
+        color: #ffffff;
     }
 
     .contacts-social a,a:hover{
-        color: white;
+        color: #ffffff;
         text-decoration: none;
     }
 

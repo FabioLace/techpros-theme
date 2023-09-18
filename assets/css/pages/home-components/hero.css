@@ -2,15 +2,15 @@
     .hero{
         background: url('../../../images/slider1.jpg') 50% 0 / auto scroll no-repeat;
         height: auto;
-        color: white;
+        color: #ffffff;
     }
 
     .hero-content{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 15px 0 15px;
-        margin: 0 auto 0 auto;
+        padding: 0 15px;
+        margin: 0 auto;
     }
 
     .hero-content .text{
@@ -23,8 +23,7 @@
     .hero-content .text>h4{
         text-transform: capitalize;
         font: 600 16px "Nunito", sans-serif;
-        margin-top: 55px;
-        margin-bottom: 24px;
+        margin: 55px 0 24px;
     }
 
     .hero-content h1{
@@ -36,7 +35,7 @@
     }
 
     .hero-content .text>p{
-        margin: 20px 0px 40px 0px;
+        margin: 20px 0 40px;
         width: 100%;
         font-size: 18px;
     }
@@ -54,7 +53,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin: 50px auto 0px auto;
+        margin: 50px auto 0;
         box-shadow: 0px 20px 5px -5px rgba(0,0,0,0.3);
     }
 
@@ -75,14 +74,14 @@
     }
 
     .service-white{
-        background-color: white;
+        background-color: #ffffff;
         color: var(--ux-black);
         border-bottom: 10px solid var(--secondary-color);
     }
 
     .service-purple{
         background-color: var(--secondary-color);
-        color: white;
+        color: #ffffff;
         border-bottom: 10px solid var(--primary-color);
     }
 
@@ -192,11 +191,11 @@
 
     .service-white:hover{
         background-color: var(--primary-color);
-        color: white;
+        color: #ffffff;
     }
 
     .service-white:hover #purple-icon{
-        color: white;
+        color: #ffffff;
     }
 
     .service-purple:hover{

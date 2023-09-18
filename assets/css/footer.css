@@ -1,7 +1,7 @@
 @media screen and (min-width: 319px){
     footer{
         background-color: #211E3B;
-        color: white;
+        color: #ffffff;
     }
 
     .contacts-container, .real-footer-container{
@@ -16,7 +16,7 @@
 
     .contacts-address-time{
         border-bottom: 1px solid #FFFF;
-        padding: 40px 0px 40px 0px;
+        padding: 40px 0px;
     }
     
     .contacts-template{
@@ -26,7 +26,7 @@
 
     .real-footer{
         background-image: url("../images/footer-bg.png");
-        padding: 40px 0px 40px 0px;
+        padding: 40px 0px;
     }
 
     .brand-identity .social{
@@ -34,7 +34,7 @@
     }
 
     .brand-identity .social a{
-        color: white;
+        color: #ffffff;
         font-size: large;
         margin-left: 0;
         margin-right: 10px;
@@ -46,7 +46,7 @@
     }
 
     .real-footer .links a{
-        color: white;
+        color: #ffffff;
     }
 }
 

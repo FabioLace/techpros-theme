@@ -1,5 +1,5 @@
 /*
-Theme Name: techpros
+Theme Name: Techpros
 Theme URI: 
 Author: 
 Author URI: 
@@ -30,7 +30,7 @@ button {
     background: #43BAFF;
     text-transform: uppercase;
     cursor: pointer;
-    color: white;
+    color: #ffffff;
     transition: 0.5s;
 }
 

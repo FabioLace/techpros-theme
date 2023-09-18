@@ -1,7 +1,6 @@
 @media screen and (min-width: 319px){
     .about-us{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin: 50px 0;
     }
 
     .content{
@@ -53,8 +52,7 @@
     }
 
     .about-us{
-        margin-top: 150px;
-        margin-bottom: 150px;
+        margin: 150px 0;
     }
 
     .collage{ 

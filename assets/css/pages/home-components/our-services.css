@@ -1,12 +1,12 @@
 @media screen and (min-width: 319px){
     .our-services{
         background-color: var(--secondary-color);
-        color: white;
+        color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
 
     .services-content{
-        padding: 100px 0 50px 0;
+        padding: 100px 0 50px;
     }
 
     .text-button{
@@ -67,7 +67,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: white;
+        background-color: #ffffff;
         color: var(--primary-color);
         width: 100px;
         height: 100px;
@@ -80,7 +80,7 @@
     }
 
     .card a{
-        color: white;
+        color: #ffffff;
         margin-top: 20px;
         margin-bottom: 20px;
     }

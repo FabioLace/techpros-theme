@@ -1,7 +1,7 @@
 /* NON SERVE LA MEDIA QUERY */
 .testimonials-and-text{
     background: url("../../../images/testi1.jpg") center center/cover no-repeat;
-    padding: 85px 0px 116px 0px;
+    padding: 85px 0px 116px;
 }
 
 .testimonials-and-text .h5-line h5{
@@ -12,7 +12,7 @@
 .testimonials-and-text h3{
     font-size: 36px;
     font-weight: 700;
-    margin: 13px 0px 3px 0px; 
+    margin: 13px 0px 3px; 
 }
 
 .testimonials-container{
@@ -25,7 +25,7 @@
 
 .single-testimonial{
     padding: 50px;
-    background-color: white;
+    background-color: #ffffff;
     width: 50%;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
@@ -49,7 +49,7 @@
     line-height: 50px;
     bottom: 7px;
     right: -16px;
-    background-color: #43baff;
+    background-color: var(--primary-color);
     width: 50px;
     height: 50px;
     text-align: center;
