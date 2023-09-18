@@ -1,0 +1,72 @@
+@media screen and (min-width: 319px){
+    .about-us{
+        margin: 50px 0;
+
+        .content{
+            @include flex-column;
+        
+            .text{
+                margin: 50px;
+
+                h2{
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+
+                p{
+                    font-size: 16px;
+                }
+
+                .paragraphs{
+                    @include col-align-center;
+
+                    .paragraph{
+                        @include row-align-center;
+                        margin-top: 50px;
+
+                        i{
+                            width: 32px;
+                            color: $primary-color;
+                            font-size: xx-large;
+                            margin-right: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .about-us{
+        margin: 150px 0;
+
+        .content{
+            flex-direction: row;
+
+            .collage{
+                width: 50%;
+                height: fit-content;
+                margin-right: 50px;
+            }
+
+            .text{
+                margin: unset;
+                width: 40%;
+
+                .h5-line{
+                    flex-direction: row;
+
+                    .line{
+                        margin-left: 30px;
+                    }
+                }
+
+                .paragraph{
+                    margin-top: unset;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
