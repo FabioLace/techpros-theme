@@ -19,9 +19,6 @@ Integrazione tramite wp_enqueue_style in functions.php:
 Integrazione tramite CDN in header.php
 * <a href="https://swiperjs.com/">Swiper 10.2.0</a>
 
-# Licenza
-Fai quello che cazzo ti pare con 'sto tema, basta che non lo rivendi né lo spacci per tuo al 100%.
-
 # Cose da sapere
 Non è completamente integrato con il CMS, perché la maggior parte delle cose è scritta direttamente su file HTML e le immagini sono presenti negli assets. SE VUOI lascerò alcune righe commentate che potranno essere utili nel sostituire i testi/immagini con quello che vuoi tu, ma dovrai poi installare il famoso plugin <a href="https://wordpress.org/plugins/advanced-custom-fields/">Advanced Custom Fields</a> nel tuo progetto principale.
 
