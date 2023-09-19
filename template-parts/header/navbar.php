@@ -1,7 +1,4 @@
 <script>
-    const logoTransparent = 'http://' + location.hostname + '/wp-content/themes/techpros/assets/images/logo-transparent.png';
-    const logoPath = 'http://' + location.hostname + '/wp-content/themes/techpros/assets/images/main-logo.png';
-
     document.addEventListener("DOMContentLoaded", function() {
         const navElement = document.getElementById('navbar');
         const logoElement = document.getElementById('logo');
@@ -22,10 +19,10 @@
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
             if (scrollPercentage > 1) {
                 navElement.classList.add('nav-scroll');
-                logoElement.src = logoTransparent;
+                logoElement.src = 'wp-content/themes/techpros/assets/images/logo-transparent.png';
             } else {
                 navElement.classList.remove('nav-scroll');
-                logoElement.src = logoPath;
+                logoElement.src = 'wp-content/themes/techpros/assets/images/main-logo.png';
             }
         }
 
@@ -57,26 +54,16 @@
 
     function hr(){
         console.log("================================")
-        console.log("HR");
         const navElement = document.getElementById('navbar');
         const buttonElement = document.querySelector('nav button');
-        let logoElement = document.getElementById('logo');
+        const logoElement = document.getElementById('logo');
         const contactSocials = document.querySelector('.contacts-social');
-        console.log("INITIAL SRC: ", logoElement.src)
-        if(logoElement.src != logoTransparent){
-            console.log("INSIDE IF")
-            console.log("LOGO TRANSPARENT: ", logoTransparent);
-            logoElement.src = logoTransparent;
-            console.log("LOGO ELEMENTSRC: ",logoElement.src);
-        } else {
-            console.log("INSIDE ELSE")
-            logoElement.src = logoPath;
-            console.log(logoElement.src);
-        }
-        console.log("FINAL SRC: ",logoElement.src);
+        contactSocials.style.cssText = 'transition: 0.2s;';
         navElement.classList.toggle("bg-danger");
+        console.log("IFELSE: " + logoElement.src);
         buttonElement.classList.toggle("btn-dark");
         contactSocials.classList.toggle("bg-danger");
+        navElement.style.cssText = '';
     }
 </script>
 <nav id="navbar">
