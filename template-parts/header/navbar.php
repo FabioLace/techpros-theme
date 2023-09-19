@@ -1,4 +1,7 @@
 <script>
+    const logoTransparent = 'http://' + location.hostname + '/wp-content/themes/techpros/assets/images/logo-transparent.png';
+    const logoPath = 'http://' + location.hostname + '/wp-content/themes/techpros/assets/images/main-logo.png';
+
     document.addEventListener("DOMContentLoaded", function() {
         const navElement = document.getElementById('navbar');
         const logoElement = document.getElementById('logo');
@@ -19,10 +22,10 @@
             const scrollPercentage = (scrollTop / (documentHeight - windowHeight)) * 100;
             if (scrollPercentage > 1) {
                 navElement.classList.add('nav-scroll');
-                logoElement.src = 'wp-content/themes/techpros/assets/images/logo-transparent.png';
+                logoElement.src = logoTransparent;
             } else {
                 navElement.classList.remove('nav-scroll');
-                logoElement.src = 'wp-content/themes/techpros/assets/images/main-logo.png';
+                logoElement.src = logoPath;
             }
         }
 
@@ -52,6 +55,29 @@
         }
     }
 
+    function hr(){
+        console.log("================================")
+        console.log("HR");
+        const navElement = document.getElementById('navbar');
+        const buttonElement = document.querySelector('nav button');
+        let logoElement = document.getElementById('logo');
+        const contactSocials = document.querySelector('.contacts-social');
+        console.log("INITIAL SRC: ", logoElement.src)
+        if(logoElement.src != logoTransparent){
+            console.log("INSIDE IF")
+            console.log("LOGO TRANSPARENT: ", logoTransparent);
+            logoElement.src = logoTransparent;
+            console.log("LOGO ELEMENTSRC: ",logoElement.src);
+        } else {
+            console.log("INSIDE ELSE")
+            logoElement.src = logoPath;
+            console.log(logoElement.src);
+        }
+        console.log("FINAL SRC: ",logoElement.src);
+        navElement.classList.toggle("bg-danger");
+        buttonElement.classList.toggle("btn-dark");
+        contactSocials.classList.toggle("bg-danger");
+    }
 </script>
 <nav id="navbar">
     <img id="logo" src="<?= esc_url( get_template_directory_uri() . '/assets/images/main-logo.png' ); ?>">
@@ -227,5 +253,5 @@
             </div>
         </div>
     </div>
-    <button>Get a quote</button>
+    <button onclick="hr()">Get a quote</button>
 </nav>
