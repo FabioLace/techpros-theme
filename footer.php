@@ -1,5 +1,5 @@
             <footer>
-                <div class="contacts-address-time">
+                <div class="footer-1">
                     <div class="contacts-container">
                         <div class="contacts-template">
                             <h5>Quick Contact</h5>
@@ -23,8 +23,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="real-footer">
-                    <div class="real-footer-container">
+                <div class="footer-2">
+                    <div class="footer-2-container">
                         <div class="brand-identity">
                             <img src="<?= esc_url( get_template_directory_uri() . '/assets/images/logo-transparent.png' ); ?>">
                             <div>
