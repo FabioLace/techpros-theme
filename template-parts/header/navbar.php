@@ -56,14 +56,22 @@
         console.log("================================")
         const navElement = document.getElementById('navbar');
         const buttonElement = document.querySelector('nav button');
-        const logoElement = document.getElementById('logo');
         const contactSocials = document.querySelector('.contacts-social');
+        const navLinks = navElement.querySelectorAll('.nav-link>a');
         contactSocials.style.cssText = 'transition: 0.2s;';
         navElement.classList.toggle("bg-danger");
-        console.log("IFELSE: " + logoElement.src);
+        try{
+            if(navLinks.length>0){
+                navLinks.forEach(function(navLink){
+                    navLink.classList.toggle("text-light");
+                })
+            }
+        } catch(error) {
+            console.log(error);
+        }
+        console.log(navElement.nav);
         buttonElement.classList.toggle("btn-dark");
         contactSocials.classList.toggle("bg-danger");
-        navElement.style.cssText = '';
     }
 </script>
 <nav id="navbar">
