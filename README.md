@@ -3,7 +3,6 @@
     <img src="assets/images/main-logo.png">
   </p>
   <p>
-    <img src="https://img.shields.io/badge/License-GPLv3-red?style=for-the-badge">
     <img src="https://img.shields.io/badge/wordpress-grey?style=for-the-badge&logo=wordpress">
   </p>
 </div>
