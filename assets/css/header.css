@@ -1,49 +1,46 @@
 @import "./navbar.css";
 
-@media screen and (min-width: 319px){
-    .contacts-social{
-        display: none;
-    }
+.contacts-social{
+    display: none;
 }
 
 @media screen and (min-width: 1023px){
     .contacts-social{
-        display: flex;
+        display: block;
         background-color: var(--secondary-color);
-        padding: 10px 4em;
+        padding-top: 10px;
+        padding-bottom: 10px;
         color: #ffffff;
-    }
 
-    .contacts-social a,a:hover{
-        color: #ffffff;
-        text-decoration: none;
-    }
+        a,a:hover{
+            color: #ffffff;
+            text-decoration: none;
+        }
 
-    .contacts-social i{
-        margin-right: 1px;
-    }
+        i{
+            margin-right: 1px;
+        }
 
-    .contacts, .social{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+        .contacts, .social{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
 
-    .contacts{
-        margin-left: 1em;
-        margin-right: auto;
-    }
+        .contacts{
+            margin-right: auto;
 
-    .contacts div{
-        margin-left: 1em;
-        margin-right: 1em;
-    }
+            div{
+                margin: 0 1em;
+            }
+        }
 
-    .social{
-        margin-right: 1em;
-    }
+        .social{
+            justify-content: flex-end;
 
-    .social a{
-        margin-left: 1em;
+            a{
+                margin-left: 1em;
+            }
+        }
     }
 }
