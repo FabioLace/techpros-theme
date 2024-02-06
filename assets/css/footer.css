@@ -1,14 +1,10 @@
-@media screen and (min-width: 319px){
-    footer{
-        background-color: #211E3B;
-        color: #ffffff;
-    }
+footer{
+    background-color: #211E3B;
+    color: #ffffff;
 
     .contacts-container, .footer-2-container{
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         text-align: center;
         gap: 50px;
         font-size: smaller;
@@ -17,36 +13,34 @@
     .footer-1{
         border-bottom: 1px solid #FFFF;
         padding: 40px 0px;
-    }
-    
-    .contacts-template{
-        display: flex;
-        flex-direction: column;
+        
+        .contacts-template{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .footer-2{
         background-image: url("../images/footer-bg.png");
         padding: 40px 0px;
-    }
-
-    .brand-identity .social{
-        margin-top: 20px;
-    }
-
-    .brand-identity .social a{
-        color: #ffffff;
-        font-size: large;
-        margin-left: 0;
-        margin-right: 10px;
-    }
-    
-    .footer-2 .links{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-2 .links a{
-        color: #ffffff;
+        
+        .brand-identity .social{
+            margin-top: 20px;
+            a{
+                color: #ffffff;
+                font-size: large;
+                margin-left: 0;
+                margin-right: 10px;
+            }
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+        
+            a{
+                color: #ffffff;
+            }
+        }
     }
 }
 
@@ -57,36 +51,34 @@
 }
 
 @media screen and (min-width: 1023px) {
-    .contacts-container, .footer-2-container{
-        display: flex;
-        flex-direction: row;
-        gap: unset;
-        text-align: unset;
-        font-size: unset;
-    }
+    footer{
+        .contacts-container, .footer-2-container{
+            flex-direction: row;
+            gap: unset;
+            text-align: unset;
+            font-size: unset;
+        }
+        
+        .brand-identity{
+            margin-right: auto;
+    
+            img, .social{
+                margin-bottom: 10px;
+            }
+        }
 
-    .contacts-template{
-        margin-right: 50px;
-    }
+        .footer-2{
+            .links{
+                margin-left: auto;
+                margin-right: auto;
 
-    .brand-identity{
-        width: 40%;
-        margin-right: 50px;
-    }
-
-    .brand-identity img, .brand-identity .social{
-        margin-bottom: 10px;
-    }
- 
-    .footer-2 .links{
-        margin-right: 50px;
-    }
-
-    .footer-2 .links a{
-        transition: 0.3s;
-    }
-
-    .footer-2 .links a:hover{
-        color: var(--primary-color);
+                a{
+                    transition: 0.3s;
+                }
+                a:hover{
+                    color: var(--primary-color);
+                }
+            }
+        }
     }
 }

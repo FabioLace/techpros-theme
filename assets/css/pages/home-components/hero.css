@@ -1,320 +1,317 @@
-@media screen and (min-width: 319px){
-    .hero{
-        background: url('../../../images/slider1.jpg') 50% 0 / auto scroll no-repeat;
-        height: auto;
-        color: #ffffff;
-    }
+
+.hero{
+    background: url('../../../images/slider1.jpg') 50% 0 / auto scroll no-repeat;
+    height: auto;
+    color: #ffffff;
 
     .hero-content{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 15px;
-        margin: 0 auto;
+
+        .text{
+            margin: unset;
+            margin-top: 60px;
+            width: auto;
+            text-align: center;
+
+            .over-title{
+                text-transform: capitalize;
+                font: 600 16px "Nunito", sans-serif;
+            }
+
+            p{
+                margin: 20px 0 40px;
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+
+        h1{
+            font-size: 21px;
+            font-weight: 900;
+            margin-bottom: 21px;
+            line-height: 35px;
+            text-transform: uppercase;
+        }
+
+        .hero-buttons{
+            button{
+                margin-bottom: 60px;
+            }
+
+            .it-service{
+                display: none;
+            }
+        }
     }
 
-    .hero-content .text{
-        margin: unset;
-        margin-top: 60px;
-        width: auto;
-        text-align: center;
-    }
-
-    .hero-content .text>h4{
-        text-transform: capitalize;
-        font: 600 16px "Nunito", sans-serif;
-        margin: 55px 0 24px;
-    }
-
-    .hero-content h1{
-        font-size: 21px;
-        font-weight: 900;
-        margin-bottom: 21px;
-        line-height: 35px;
-        text-transform: uppercase;
-    }
-
-    .hero-content .text>p{
-        margin: 20px 0 40px;
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .hero-buttons button{
-        margin-bottom: 60px;
-    }
-
-    .hero-buttons>.it-service{
-        display: none;
-    }
-
-    .hero>.main-services{
+    .main-services{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         margin: 50px auto 0;
         box-shadow: 0px 20px 5px -5px rgba(0,0,0,0.3);
-    }
+ 
+        .service{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: fit-content;
+            transition: 0.4s;
 
-    .service{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: fit-content;
-        transition: 0.4s;
-    }
+            .service-content{
+                padding: 50px;
 
-    .service-content{
-        padding: 50px;
-    }
+                .service-text{
+                    font-size: 16px;
+                }
+            }
+        }
 
-    .service-text{
-        font-size: 16px;
-    }
+        .service-white{
+            background-color: #ffffff;
+            color: var(--ux-black);
+            border-bottom: 10px solid var(--secondary-color);
 
-    .service-white{
-        background-color: #ffffff;
-        color: var(--ux-black);
-        border-bottom: 10px solid var(--secondary-color);
-    }
+            .icon-h2 i{
+                color: var(--secondary-color);
+                transition: 0.4s;
+            }
+        }
 
-    .service-purple{
-        background-color: var(--secondary-color);
-        color: #ffffff;
-        border-bottom: 10px solid var(--primary-color);
-    }
+        .service-purple{
+            background-color: var(--secondary-color);
+            color: #ffffff;
+            border-bottom: 10px solid var(--primary-color);
+        }
 
-    .icon-h2{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+        .icon-h2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
 
-    .icon-h2 h2{
-        font-weight: 700;
-        font-size: 20px;
-    }
+            .service-name{
+                font-weight: 700;
+                font-size: 20px;
+            }
 
-    .icon-h2 i{
-        margin-bottom: 10px;
-        margin-right: 10px;
-        font-size: 30px;
-    }
-
-    .service-white .icon-h2 i{
-        color: var(--secondary-color);
-        transition: 0.4s;
+            i{
+                margin-bottom: 10px;
+                margin-right: 10px;
+                font-size: 30px;
+            }
+        }
     }
 }
 
 @media screen and (min-width: 767px){
     .hero{
         margin-top: 0px;
-    }
 
-    .hero-content
+        .hero-content{
+            p{
+                width: 55%;
+            }
+            
+            .hero-buttons{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
 
-    .hero-content>p{
-        width: 55%;
-    }
+                .it-service{
+                    display: block;
+                    background: var(--secondary-color);
 
-    .hero-buttons{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .hero-buttons>.it-service{
-        display: block;
-        background: var(--secondary-color);
+                    @media (hover: hover){
+                        .it-service:hover{
+                            background: var(--primary-color);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 1023px) {
     .hero{
         background: url('../../../images/slider1.jpg') center center / cover scroll no-repeat;
-    }
-
-    .hero>.main-services{
-        flex-direction: row;
-        justify-content: center;
-        align-items: unset;
-        width: 100%;
-        box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
-    }
-
-    .hero-content{
-        align-items: unset;
-        justify-content: left;
-        padding: 242px;
-        font-size: unset;
-    }
-
-    .hero-content .text{
-        width: auto;
-        text-align: unset;
-    }
-
-    .hero-content .text>h4{
-        font-size: 20px;
-    }
-
-    .hero-content .text>h1{
-        font-size: 60px;
-        line-height: 71px;
-    }
-
-    .hero-content .text>p{
-        margin: unset;
-        width: unset;
-    }
-
-    .hero-buttons button{
-        margin: 10px;
-        margin-left: unset;
-    }
-
-    .it-service:hover{
-        background: var(--primary-color);
-    }
-
-    .service{
+        margin-bottom: 300px;
+        padding-top: 300px;
+        padding-bottom: 300px;
         position: relative;
-        width: 400px;
-        height: 250px;
-        z-index: 99;
-    }
 
-    .service-content{
-        padding: 20px;
-        font-size: unset;
-    }
-    /**
-    *
-    *SERVICE 1 WHITE
-    *
-    */
-    .service-white:hover, .service-white:hover #purple-icon{
-        color: #ffffff;
-    }
+        .hero-content{
+            align-items: unset;
+            justify-content: left;
+            font-size: unset;
 
-    .service-1::before{
-        background: url("../../../images/flipbox1.jpg"),center center/cover no-repeat scroll;
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        background-size: cover;
-        opacity: 0;
-        transition: .3s;
-    }
+            .text{
+                width: auto;
+                text-align: unset;
 
-    .service-1:hover:before{
-        opacity: 1;
-    }
+                .over-title{
+                    font-size: 20px;
+                }
 
-    .service-1::after{
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: rgba(67,186,255,0.90);
-        z-index: -1;
-        opacity: 0;
-        transition: .3s;
-    }
+                h1{
+                    font-size: 60px;
+                    line-height: 71px;
+                }
 
-    .service-1:hover:after{
-        opacity: 1;
-    }
+                p{
+                    margin: unset;
+                    width: unset;
+                }
+            }
 
-    /**
-    *
-    * SERVICE 2 PURPLE
-    *
-    */
-    .service-purple:hover{
-        border-bottom: 10px solid var(--secondary-color);
-    }
+            .hero-buttons button{
+                margin: 10px;
+                margin-left: unset;
+            }
+        }
+        
+        .main-services{
+            position: absolute;
+            bottom: -240px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            flex-direction: row;
+            justify-content: center;
+            align-items: unset;
+            width: fit-content;
+            box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.75);
 
-    .service-2::before{
-        background: url("../../../images/flipbox2.jpg"),center center/cover no-repeat scroll;
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        background-size: cover;
-        opacity: 0;
-        transition: .3s;
-    }
+            .service{
+                position: relative;
+                width: 400px;
+                height: 250px;
+                z-index: 99;
+                
+                .service-content{
+                    padding: 20px;
+                    font-size: unset;
+                }
+            }
 
-    .service-2:hover:before{
-        opacity: 1;
-    }
+            /* SERVICE 1 WHITE */
+            .service-white:hover, .service-white:hover #purple-icon{
+                color: #ffffff;
+            }
 
-    .service-2::after{
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: rgba(67,186,255,0.90);
-        z-index: -1;
-        opacity: 0;
-        transition: .3s;
-    }
+            .service-1::before{
+                background: url("../../../images/flipbox1.jpg"),center center/cover no-repeat scroll;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                background-size: cover;
+                opacity: 0;
+                transition: .3s;
+            }
 
-    .service-2:hover:after{
-        opacity: 1;
-    }
+            .service-1:hover:before{
+                opacity: 1;
+            }
 
-    /*
-    *
-    * SERVICE 3 WHITE
-    *
-    */
-    .service-3::before{
-        background: url("../../../images/flipbox3.jpg"),center center/cover no-repeat scroll;
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        background-size: cover;
-        opacity: 0;
-        transition: .3s;
-    }
+            .service-1::after{
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(67,186,255,0.90);
+                z-index: -1;
+                opacity: 0;
+                transition: .3s;
+            }
 
-    .service-3:hover:before{
-        opacity: 1;
-    }
+            .service-1:hover:after{
+                opacity: 1;
+            }
 
-    .service-3::after{
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: rgba(67,186,255,0.90);
-        z-index: -1;
-        opacity: 0;
-        transition: .3s;
-    }
+            /* SERVICE 2 PURPLE */
+            .service-purple:hover{
+                border-bottom: 10px solid var(--secondary-color);
+            }
 
-    .service-3:hover:after{
-        opacity: 1;
+            .service-2::before{
+                background: url("../../../images/flipbox2.jpg"),center center/cover no-repeat scroll;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                background-size: cover;
+                opacity: 0;
+                transition: .3s;
+            }
+
+            .service-2:hover:before{
+                opacity: 1;
+            }
+
+            .service-2::after{
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(67,186,255,0.90);
+                z-index: -1;
+                opacity: 0;
+                transition: .3s;
+            }
+
+            .service-2:hover:after{
+                opacity: 1;
+            }
+
+            /* SERVICE 3 WHITE */
+            .service-3::before{
+                background: url("../../../images/flipbox3.jpg"),center center/cover no-repeat scroll;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                background-size: cover;
+                opacity: 0;
+                transition: .3s;
+            }
+
+            .service-3:hover:before{
+                opacity: 1;
+            }
+
+            .service-3::after{
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(67,186,255,0.90);
+                z-index: -1;
+                opacity: 0;
+                transition: .3s;
+            }
+
+            .service-3:hover:after{
+                opacity: 1;
+            }
+        }
     }
 }
